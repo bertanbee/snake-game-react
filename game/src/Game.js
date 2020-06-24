@@ -3,8 +3,474 @@ import './styles.css';
 
 function Game() {
   return (
+    <div className="BOX">
     <div className="Game">
-      <p>Hi</p>
+      <div className="block">
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+      </div>
+
+      <div className="block">
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+
+      </div>
+
+      <div className="block">
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+
+      </div>
+
+      <div className="block">
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+
+      </div>
+
+      <div className="block">
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+
+      </div>
+      <div className="block">
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+
+      </div>
+      <div className="block">
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+
+      </div>
+      <div className="block">
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+
+      </div>
+      <div className="block">
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+
+      </div>
+      <div className="block">
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+
+      </div>
+      <div className="block">
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+
+      </div>
+      <div className="block">
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+
+      </div>
+      <div className="block">
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+
+      </div>
+      <div className="block">
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+
+      </div>
+
+      <div className="block">
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+
+      </div>
+      <div className="block">
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+
+      </div>
+      <div className="block">
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+
+      </div>
+      <div className="block">
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+
+      </div>
+      <div className="block">
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+
+      </div>
+      <div className="block">
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+        <div className="little-block"></div>
+
+      </div>
+      
+    </div>
     </div>
   );
 }
