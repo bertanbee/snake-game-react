@@ -1,0 +1,18 @@
+.controls {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    height: 30px;
+    width: 30px;
+    padding: 6px;
+    transition: 0.5s;
+}
+
+.icon:hover {
+    cursor: pointer;
+    opacity: 75%;
+    transition: 0.5s;
+}
