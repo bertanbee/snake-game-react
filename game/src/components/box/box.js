@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './styles.css'
 function Box () {
 return (<div className="BOX">
     <div className="Game">

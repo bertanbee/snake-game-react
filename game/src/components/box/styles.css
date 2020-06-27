@@ -1,0 +1,18 @@
+.Game {
+    background-color: white;
+    width: 600px;
+    height: 600px;
+    vertical-align: middle;
+    border: black solid 1px;
+}
+
+.block {
+    display: flex;
+}
+
+.little-block {
+    height: 28px;
+    width: 28px;
+    border: solid 1px black;
+    background-color: whitesmoke;
+}
