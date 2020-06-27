@@ -7,8 +7,8 @@ function Controls() {
     return (
         <div className="controls">
             <FaArrowLeft className="icon"></FaArrowLeft>
-            <FaArrowUp className="icon"></FaArrowUp>
             <FaArrowDown className="icon"></FaArrowDown>
+            <FaArrowUp className="icon"></FaArrowUp>
             <FaArrowRight className="icon"></FaArrowRight>
         </div>
     );

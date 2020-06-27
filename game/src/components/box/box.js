@@ -1,7 +1,9 @@
 import React from 'react';
-import './styles.css'
+import './styles.css';
+
 function Box () {
-return (<div className="BOX">
+return (
+<div className="BOX">
     <div className="Game">
       <div className="block">
         <div className="little-block" id="1"></div>

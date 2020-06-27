@@ -3,7 +3,7 @@
     width: 600px;
     height: 600px;
     vertical-align: middle;
-    border: black solid 1px;
+    border: rgb(31, 31, 31) solid 1px;
 }
 
 .block {
@@ -13,6 +13,6 @@
 .little-block {
     height: 28px;
     width: 28px;
-    border: solid 1px black;
-    background-color: whitesmoke;
+    border: solid 1px rgb(31, 31, 31);
+    background-color: rgb(173, 173, 173);
 }
