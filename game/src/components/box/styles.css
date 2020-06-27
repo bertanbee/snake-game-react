@@ -16,3 +16,10 @@
     border: solid 1px rgb(31, 31, 31);
     background-color: rgb(173, 173, 173);
 }
+
+.little-block-selected {
+    height: 28px;
+    width: 28px;
+    border: solid 1px rgb(31, 31, 31);
+    background-color: rgb(255, 123, 0);
+}

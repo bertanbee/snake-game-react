@@ -8,13 +8,12 @@
     height: 30px;
     width: 30px;
     padding: 6px;
-    transition: 0.5s;
     color: rgb(173, 173, 173);
 }
 
 .icon:hover {
     cursor: pointer;
     opacity: 30%;
-    transition: 0.5s;
+    transition: 0.12s;
 }
 

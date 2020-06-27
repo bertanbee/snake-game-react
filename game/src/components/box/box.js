@@ -1,12 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './styles.css';
 
 function Box () {
+const [ SelectedPosition, SetSelectedPosition ] = useState({});
+
 return (
 <div className="BOX">
     <div className="Game">
       <div className="block">
-        <div className="little-block" id="1"></div>
+        <div className="little-block-selected" id="1"></div>
         <div className="little-block" id="2"></div>
         <div className="little-block" id="3"></div>
         <div className="little-block" id="4"></div>
