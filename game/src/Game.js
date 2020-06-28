@@ -11,16 +11,122 @@ function Game() {
     className: "little-block-selected"
   });
 
-  function change() {
+  const [ position2, setPosition2 ] = useState({
+    className: "little-block"
+  });
+
+  const [ position3, setPosition3 ] = useState({
+    className: "little-block"
+  }); 
+
+  const [ position4, setPosition4 ] = useState({
+    className: "little-block"
+  });
+
+  function changeLeft() {
     if(position1.className === "little-block") {
-        setPosition1({
-            className: "little-block-selected"
-        });
+      if(position2.className === "little-block") {
+        if(position3.className === "little-block") {
+          if(position4.className === "little-block") {
+      
+          } else {
+              setPosition4({
+                  className: "little-block"
+              });
+      
+              setPosition3({
+                className:"little-block-selected"
+              })
+      
+              return;
+          }
+      
+        } else {
+            setPosition3({
+                className: "little-block"
+            });
+    
+            setPosition2({
+              className:"little-block-selected"
+            })
+    
+            return;
+        }
+      } else {
+          setPosition2({
+              className: "little-block"
+          });
+  
+          setPosition1({
+            className:"little-block-selected"
+          })
+  
+          return;
+      }
     } else {
         setPosition1({
             className: "little-block"
+        });
+
+        setPosition4({
+          className:"little-block-selected"
         })
+
+        return;
     }
+  }
+
+  function changeRight() {
+    if(position1.className === "little-block") {
+      if(position2.className === "little-block") {
+        if(position3.className === "little-block") {
+          if(position4.className === "little-block") {
+          } else {
+              setPosition4({
+                  className: "little-block"
+              });
+      
+              setPosition1({
+                className:"little-block-selected"
+              })
+      
+              return;
+          }
+        } else {
+            setPosition3({
+                className: "little-block"
+            });
+    
+            setPosition4({
+              className:"little-block-selected"
+            })
+    
+            return;
+        }
+      } else {
+          setPosition2({
+              className: "little-block"
+          });
+  
+          setPosition3({
+            className:"little-block-selected"
+          })
+  
+          return;
+      }
+    } else {
+        setPosition1({
+            className: "little-block"
+        });
+
+        setPosition2({
+          className:"little-block-selected"
+        })
+
+        return;
+    }
+
+    
 }
 
   return (
@@ -29,9 +135,9 @@ function Game() {
     <div className="Game">
       <div className="block">
         <div className={position1.className} id="1"></div>
-        <div className="little-block" id="2"></div>
-        <div className="little-block" id="3"></div>
-        <div className="little-block" id="4"></div>
+        <div className={position2.className} id="2"></div>
+        <div className={position3.className} id="3"></div>
+        <div className={position4.className} id="4"></div>
         <div className="little-block" id="5"></div>
         <div className="little-block" id="6"></div>
         <div className="little-block" id="7"></div>
@@ -490,10 +596,10 @@ function Game() {
     </div>
     </div>
     <div className="controls">
-            <FaArrowLeft className="icon"></FaArrowLeft>
-            <FaArrowDown className="icon" onClick={()=>change()}></FaArrowDown>
+            <FaArrowLeft className="icon" onClick={() => changeLeft()}></FaArrowLeft>
+            <FaArrowDown className="icon"></FaArrowDown>
             <FaArrowUp className="icon"></FaArrowUp>
-            <FaArrowRight className="icon"></FaArrowRight>
+            <FaArrowRight className="icon" onClick={()=>changeRight()}></FaArrowRight>
         </div>
     </>
   );
