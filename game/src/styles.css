@@ -4,3 +4,58 @@ body {
     vertical-align: middle;
     background-color: rgb(56, 56, 56);
 }
+
+
+
+
+
+
+
+
+.Game {
+    background-color: white;
+    width: 600px;
+    height: 600px;
+    vertical-align: middle;
+    border: rgb(31, 31, 31) solid 1px;
+}
+
+.block {
+    display: flex;
+}
+
+.little-block {
+    height: 28px;
+    width: 28px;
+    border: solid 1px rgb(31, 31, 31);
+    background-color: rgb(173, 173, 173);
+}
+
+.little-block-selected {
+    height: 28px;
+    width: 28px;
+    border: solid 1px rgb(31, 31, 31);
+    background-color: rgb(255, 123, 0);
+}
+
+
+
+
+.controls {
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    height: 30px;
+    width: 30px;
+    padding: 6px;
+    color: rgb(173, 173, 173);
+}
+
+.icon:hover {
+    cursor: pointer;
+    opacity: 30%;
+    transition: 0.12s;
+}
