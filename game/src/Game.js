@@ -7,121 +7,198 @@ import './styles.css';
 //import Controls from './components/controls/controls';
 
 function Game() {
-  const [ position1, setPosition1 ] = useState({
-    className: "little-block-selected"
+
+  const [ positionState, setPositionState ] = useState({
+    position1: {
+      className: "little-block-selected"
+    },
+    position2: {
+      className: "little-block"
+    },
+    position3: {
+      className: "little-block"
+    },
+    position4: {
+      className: "little-block"
+    },
+    
+
   });
 
-  const [ position2, setPosition2 ] = useState({
-    className: "little-block"
-  });
-
-  const [ position3, setPosition3 ] = useState({
-    className: "little-block"
-  }); 
-
-  const [ position4, setPosition4 ] = useState({
-    className: "little-block"
-  });
+  const lil = "little-block";
+  const selec = "little-block-selected";
 
   function changeLeft() {
-    if(position1.className === "little-block") {
-      if(position2.className === "little-block") {
-        if(position3.className === "little-block") {
-          if(position4.className === "little-block") {
+    
+    if(positionState.position1.className === "little-block") {
+      if(positionState.position2.className === "little-block") {
+        if(positionState.position3.className === "little-block") {
+          if(positionState.position4.className === "little-block") {
       
           } else {
-              setPosition4({
-                  className: "little-block"
+              setPositionState({
+                position1: {
+                  className: lil
+                },
+                position2: {
+                  className: lil
+                },
+                position3: {
+                  className: selec
+                },
+                position4: {
+                  className: lil
+                },
+                
+            
               });
-      
-              setPosition3({
-                className:"little-block-selected"
-              })
-      
               return;
           }
       
         } else {
-            setPosition3({
-                className: "little-block"
+            setPositionState({
+              position1: {
+                className: lil
+              },
+              position2: {
+                className: selec
+              },
+              position3: {
+                className: lil
+              },
+              position4: {
+                className: lil
+              },
+              
+          
             });
-    
-            setPosition2({
-              className:"little-block-selected"
-            })
     
             return;
         }
       } else {
-          setPosition2({
-              className: "little-block"
-          });
-  
-          setPosition1({
-            className:"little-block-selected"
-          })
-  
+        setPositionState({
+          position1: {
+            className: selec
+          },
+          position2: {
+            className: lil
+          },
+          position3: {
+            className: lil
+          },
+          position4: {
+            className: lil
+          },
+          
+      
+        });
+
           return;
       }
     } else {
-        setPosition1({
-            className: "little-block"
-        });
-
-        setPosition4({
-          className:"little-block-selected"
-        })
+      setPositionState({
+        position1: {
+          className: lil
+        },
+        position2: {
+          className: lil
+        },
+        position3: {
+          className: lil
+        },
+        position4: {
+          className: selec
+        },
+        
+    
+      });
 
         return;
     }
   }
 
   function changeRight() {
-    if(position1.className === "little-block") {
-      if(position2.className === "little-block") {
-        if(position3.className === "little-block") {
-          if(position4.className === "little-block") {
+    if(positionState.position1.className === "little-block") {
+      if(positionState.position2.className === "little-block") {
+        if(positionState.position3.className === "little-block") {
+          if(positionState.position4.className === "little-block") {
           } else {
-              setPosition4({
-                  className: "little-block"
-              });
-      
-              setPosition1({
-                className:"little-block-selected"
-              })
+            setPositionState({
+              position1: {
+                className: selec
+              },
+              position2: {
+                className: lil
+              },
+              position3: {
+                className: lil
+              },
+              position4: {
+                className: lil
+              },
+              
+          
+            });
       
               return;
           }
         } else {
-            setPosition3({
-                className: "little-block"
-            });
-    
-            setPosition4({
-              className:"little-block-selected"
-            })
+          setPositionState({
+            position1: {
+              className: lil
+            },
+            position2: {
+              className: lil
+            },
+            position3: {
+              className: lil
+            },
+            position4: {
+              className: selec
+            },
+            
+        
+          });
     
             return;
         }
       } else {
-          setPosition2({
-              className: "little-block"
-          });
-  
-          setPosition3({
-            className:"little-block-selected"
-          })
+        setPositionState({
+          position1: {
+            className: lil
+          },
+          position2: {
+            className: lil
+          },
+          position3: {
+            className: selec
+          },
+          position4: {
+            className: lil
+          },
+          
+      
+        });
   
           return;
       }
     } else {
-        setPosition1({
-            className: "little-block"
-        });
-
-        setPosition2({
-          className:"little-block-selected"
-        })
+      setPositionState({
+        position1: {
+          className: lil
+        },
+        position2: {
+          className: selec
+        },
+        position3: {
+          className: lil
+        },
+        position4: {
+          className: lil
+        },
+        
+    
+      });
 
         return;
     }
@@ -134,10 +211,10 @@ function Game() {
     <div className="BOX">
     <div className="Game">
       <div className="block">
-        <div className={position1.className} id="1"></div>
-        <div className={position2.className} id="2"></div>
-        <div className={position3.className} id="3"></div>
-        <div className={position4.className} id="4"></div>
+        <div className={positionState.position1.className} id="1"></div>
+        <div className={positionState.position2.className} id="2"></div>
+        <div className={positionState.position3.className} id="3"></div>
+        <div className={positionState.position4.className} id="4"></div>
         <div className="little-block" id="5"></div>
         <div className="little-block" id="6"></div>
         <div className="little-block" id="7"></div>
