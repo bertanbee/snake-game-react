@@ -103,818 +103,1119 @@ function Game() {
     30: {
       className: "little-block"
     },
-    11: {
+    31: {
       className: "little-block"
     },
-    12: {
+    32: {
       className: "little-block"
     },
-    13: {
+    33: {
       className: "little-block"
     },
-    14: {
+    34: {
       className: "little-block"
     },
-    15: {
+    35: {
       className: "little-block"
     },
-    16: {
+    36: {
       className: "little-block"
     },
-    17: {
+    37: {
       className: "little-block"
     },
-    18: {
+    38: {
       className: "little-block"
     },
-    19: {
+    39: {
       className: "little-block"
     },
-    20: {
+    40: {
       className: "little-block"
     },
-    1: {
+    41: {
       className: "little-block"
     },
-    2: {
+    42: {
       className: "little-block-selected"
     },
-    3: {
+    43: {
       className: "little-block"
     },
-    4: {
+    44: {
       className: "little-block"
     },
-    5: {
+    45: {
       className: "little-block"
     },
-    6: {
+    46: {
       className: "little-block"
     },
-    7: {
+    47: {
       className: "little-block"
     },
-    8: {
+    48: {
       className: "little-block"
     },
-    9: {
+    49: {
       className: "little-block"
     },
-    10: {
+    50: {
       className: "little-block"
     },
-    11: {
+    51: {
       className: "little-block"
     },
-    12: {
+    52: {
       className: "little-block"
     },
-    13: {
+    53: {
       className: "little-block"
     },
-    14: {
+    54: {
       className: "little-block"
     },
-    15: {
+    55: {
       className: "little-block"
     },
-    16: {
+    56: {
       className: "little-block"
     },
-    17: {
+    57: {
       className: "little-block"
     },
-    18: {
+    58: {
       className: "little-block"
     },
-    19: {
+    59: {
       className: "little-block"
     },
-    20: {
+    60: {
       className: "little-block"
     },
-    1: {
+    61: {
       className: "little-block"
     },
-    2: {
+    62: {
+      className: "little-block"
+    },
+    63: {
+      className: "little-block"
+    },
+    64: {
+      className: "little-block"
+    },
+    65: {
+      className: "little-block"
+    },
+    66: {
+      className: "little-block"
+    },
+    67: {
+      className: "little-block"
+    },
+    68: {
+      className: "little-block"
+    },
+    69: {
+      className: "little-block"
+    },
+    70: {
+      className: "little-block"
+    },
+    71: {
+      className: "little-block"
+    },
+    72: {
+      className: "little-block"
+    },
+    73: {
+      className: "little-block"
+    },
+    74: {
+      className: "little-block"
+    },
+    75: {
+      className: "little-block"
+    },
+    76: {
+      className: "little-block"
+    },
+    77: {
+      className: "little-block"
+    },
+    78: {
+      className: "little-block"
+    },
+    79: {
+      className: "little-block"
+    },
+    80: {
+      className: "little-block"
+    },
+    81: {
+      className: "little-block"
+    },
+    82: {
+      className: "little-block"
+    },
+    83: {
+      className: "little-block"
+    },
+    84: {
+      className: "little-block"
+    },
+    85: {
+      className: "little-block"
+    },
+    86: {
+      className: "little-block"
+    },
+    87: {
+      className: "little-block"
+    },
+    88: {
+      className: "little-block"
+    },
+    89: {
+      className: "little-block"
+    },
+    90: {
+      className: "little-block"
+    },
+    91: {
+      className: "little-block"
+    },
+    92: {
+      className: "little-block"
+    },
+    93: {
+      className: "little-block"
+    },
+    94: {
+      className: "little-block"
+    },
+    95: {
+      className: "little-block"
+    },
+    96: {
+      className: "little-block"
+    },
+    97: {
+      className: "little-block"
+    },
+    98: {
+      className: "little-block"
+    },
+    99: {
+      className: "little-block"
+    },
+    100: {
+      className: "little-block"
+    },
+    101: {
+      className: "little-block"
+    },
+    102: {
+      className: "little-block"
+    },
+    103: {
+      className: "little-block"
+    },
+    104: {
+      className: "little-block"
+    },
+    105: {
+      className: "little-block"
+    },
+    106: {
+      className: "little-block"
+    },
+    107: {
+      className: "little-block"
+    },
+    108: {
+      className: "little-block"
+    },
+    109: {
+      className: "little-block"
+    },
+    110: {
+      className: "little-block"
+    },
+    111: {
+      className: "little-block"
+    },
+    112: {
+      className: "little-block"
+    },
+    113: {
+      className: "little-block"
+    },
+    114: {
+      className: "little-block"
+    },
+    115: {
+      className: "little-block"
+    },
+    116: {
+      className: "little-block"
+    },
+    117: {
+      className: "little-block"
+    },
+    118: {
+      className: "little-block"
+    },
+    119: {
+      className: "little-block"
+    },
+    120: {
+      className: "little-block"
+    },
+    121: {
+      className: "little-block"
+    },
+    122: {
+      className: "little-block"
+    },
+    123: {
+      className: "little-block"
+    },
+    124: {
+      className: "little-block"
+    },
+    125: {
+      className: "little-block"
+    },
+    126: {
+      className: "little-block"
+    },
+    127: {
+      className: "little-block"
+    },
+    128: {
+      className: "little-block"
+    },
+    129: {
+      className: "little-block"
+    },
+    130: {
+      className: "little-block"
+    },
+    131: {
+      className: "little-block"
+    },
+    132: {
+      className: "little-block"
+    },
+    133: {
+      className: "little-block"
+    },
+    134: {
+      className: "little-block"
+    },
+    135: {
+      className: "little-block"
+    },
+    136: {
+      className: "little-block"
+    },
+    137: {
+      className: "little-block"
+    },
+    138: {
+      className: "little-block"
+    },
+    139: {
+      className: "little-block"
+    },
+    140: {
+      className: "little-block"
+    },
+    141: {
+      className: "little-block"
+    },
+    142: {
+      className: "little-block"
+    },
+    143: {
+      className: "little-block"
+    },
+    144: {
+      className: "little-block"
+    },
+    145: {
+      className: "little-block"
+    },
+    146: {
+      className: "little-block"
+    },
+    147: {
+      className: "little-block"
+    },
+    148: {
+      className: "little-block"
+    },
+    149: {
+      className: "little-block"
+    },
+    150: {
+      className: "little-block"
+    },
+    151: {
+      className: "little-block"
+    },
+    152: {
+      className: "little-block"
+    },
+    153: {
+      className: "little-block"
+    },
+    154: {
+      className: "little-block"
+    },
+    155: {
+      className: "little-block"
+    },
+    156: {
+      className: "little-block"
+    },
+    157: {
+      className: "little-block"
+    },
+    158: {
+      className: "little-block"
+    },
+    159: {
+      className: "little-block"
+    },
+    160: {
+      className: "little-block"
+    },
+    161: {
+      className: "little-block"
+    },
+    162: {
+      className: "little-block"
+    },
+    163: {
+      className: "little-block"
+    },
+    164: {
+      className: "little-block"
+    },
+    165: {
+      className: "little-block"
+    },
+    166: {
+      className: "little-block"
+    },
+    167: {
+      className: "little-block"
+    },
+    168: {
+      className: "little-block"
+    },
+    169: {
+      className: "little-block"
+    },
+    170: {
+      className: "little-block"
+    },
+    171: {
+      className: "little-block"
+    },
+    172: {
+      className: "little-block"
+    },
+    173: {
+      className: "little-block"
+    },
+    174: {
+      className: "little-block"
+    },
+    175: {
+      className: "little-block"
+    },
+    176: {
+      className: "little-block"
+    },
+    177: {
+      className: "little-block"
+    },
+    178: {
+      className: "little-block"
+    },
+    179: {
+      className: "little-block"
+    },
+    180: {
+      className: "little-block"
+    },
+    181: {
+      className: "little-block"
+    },
+    182: {
+      className: "little-block"
+    },
+    183: {
+      className: "little-block"
+    },
+    184: {
+      className: "little-block"
+    },
+    185: {
+      className: "little-block"
+    },
+    186: {
+      className: "little-block"
+    },
+    187: {
+      className: "little-block"
+    },
+    188: {
+      className: "little-block"
+    },
+    189: {
+      className: "little-block"
+    },
+    190: {
+      className: "little-block"
+    },
+    191: {
+      className: "little-block"
+    },
+    192: {
+      className: "little-block"
+    },
+    193: {
+      className: "little-block"
+    },
+    194: {
+      className: "little-block"
+    },
+    195: {
+      className: "little-block"
+    },
+    196: {
+      className: "little-block"
+    },
+    197: {
+      className: "little-block"
+    },
+    198: {
+      className: "little-block"
+    },
+    199: {
+      className: "little-block"
+    },
+    200: {
+      className: "little-block"
+    },
+    201: {
+      className: "little-block"
+    },
+    202: {
+      className: "little-block"
+    },
+    203: {
+      className: "little-block"
+    },
+    204: {
+      className: "little-block"
+    },
+    205: {
+      className: "little-block"
+    },
+    206: {
+      className: "little-block"
+    },
+    207: {
+      className: "little-block"
+    },
+    208: {
+      className: "little-block"
+    },
+    209: {
+      className: "little-block"
+    },
+    210: {
+      className: "little-block"
+    },
+    211: {
+      className: "little-block"
+    },
+    212: {
+      className: "little-block"
+    },
+    213: {
+      className: "little-block"
+    },
+    214: {
+      className: "little-block"
+    },
+    215: {
+      className: "little-block"
+    },
+    216: {
+      className: "little-block"
+    },
+    217: {
+      className: "little-block"
+    },
+    218: {
+      className: "little-block"
+    },
+    219: {
+      className: "little-block"
+    },
+    220: {
+      className: "little-block"
+    },
+    221: {
+      className: "little-block"
+    },
+    222: {
+      className: "little-block"
+    },
+    223: {
+      className: "little-block"
+    },
+    224: {
+      className: "little-block"
+    },
+    225: {
+      className: "little-block"
+    },
+    226: {
+      className: "little-block"
+    },
+    227: {
+      className: "little-block"
+    },
+    228: {
+      className: "little-block"
+    },
+    229: {
+      className: "little-block"
+    },
+    230: {
+      className: "little-block"
+    },
+    231: {
+      className: "little-block"
+    },
+    232: {
+      className: "little-block"
+    },
+    233: {
+      className: "little-block"
+    },
+    234: {
+      className: "little-block"
+    },
+    235: {
+      className: "little-block"
+    },
+    236: {
+      className: "little-block"
+    },
+    237: {
+      className: "little-block"
+    },
+    238: {
+      className: "little-block"
+    },
+    239: {
+      className: "little-block"
+    },
+    240: {
+      className: "little-block"
+    },
+    241: {
+      className: "little-block"
+    },
+    242: {
+      className: "little-block"
+    },
+    243: {
+      className: "little-block"
+    },
+    244: {
+      className: "little-block"
+    },
+    245: {
+      className: "little-block"
+    },
+    246: {
+      className: "little-block"
+    },
+    247: {
+      className: "little-block"
+    },
+    248: {
+      className: "little-block"
+    },
+    249: {
+      className: "little-block"
+    },
+    250: {
+      className: "little-block"
+    },
+    251: {
+      className: "little-block"
+    },
+    252: {
+      className: "little-block"
+    },
+    253: {
+      className: "little-block"
+    },
+    254: {
+      className: "little-block"
+    },
+    255: {
+      className: "little-block"
+    },
+    256: {
+      className: "little-block"
+    },
+    257: {
+      className: "little-block"
+    },
+    258: {
+      className: "little-block"
+    },
+    259: {
+      className: "little-block"
+    },
+    260: {
+      className: "little-block"
+    },
+    261: {
+      className: "little-block"
+    },
+    262: {
+      className: "little-block"
+    },
+    263: {
+      className: "little-block"
+    },
+    264: {
+      className: "little-block"
+    },
+    265: {
+      className: "little-block"
+    },
+    266: {
+      className: "little-block"
+    },
+    267: {
+      className: "little-block"
+    },
+    268: {
+      className: "little-block"
+    },
+    269: {
+      className: "little-block"
+    },
+    270: {
+      className: "little-block"
+    },
+    271: {
+      className: "little-block"
+    },
+    272: {
+      className: "little-block"
+    },
+    273: {
+      className: "little-block"
+    },
+    274: {
+      className: "little-block"
+    },
+    275: {
+      className: "little-block"
+    },
+    276: {
+      className: "little-block"
+    },
+    277: {
+      className: "little-block"
+    },
+    278: {
+      className: "little-block"
+    },
+    279: {
+      className: "little-block"
+    },
+    280: {
+      className: "little-block"
+    },
+    281: {
+      className: "little-block"
+    },
+    282: {
+      className: "little-block"
+    },
+    283: {
+      className: "little-block"
+    },
+    284: {
+      className: "little-block"
+    },
+    285: {
+      className: "little-block"
+    },
+    286: {
+      className: "little-block"
+    },
+    287: {
+      className: "little-block"
+    },
+    288: {
+      className: "little-block"
+    },
+    289: {
+      className: "little-block"
+    },
+    290: {
+      className: "little-block"
+    },
+    291: {
+      className: "little-block"
+    },
+    292: {
+      className: "little-block"
+    },
+    293: {
+      className: "little-block"
+    },
+    294: {
+      className: "little-block"
+    },
+    295: {
+      className: "little-block"
+    },
+    296: {
+      className: "little-block"
+    },
+    297: {
+      className: "little-block"
+    },
+    298: {
+      className: "little-block"
+    },
+    299: {
+      className: "little-block"
+    },
+    300: {
+      className: "little-block"
+    },
+    301: {
+      className: "little-block"
+    },
+    302: {
       className: "little-block-selected"
     },
-    3: {
+    303: {
       className: "little-block"
     },
-    4: {
+    304: {
       className: "little-block"
     },
-    5: {
+    305: {
       className: "little-block"
     },
-    6: {
+    306: {
       className: "little-block"
     },
-    7: {
+    307: {
       className: "little-block"
     },
-    8: {
+    308: {
       className: "little-block"
     },
-    9: {
+    309: {
       className: "little-block"
     },
-    10: {
+    310: {
       className: "little-block"
     },
-    11: {
+    311: {
       className: "little-block"
     },
-    12: {
-      className: "little-block"
-    },
-    13: {
-      className: "little-block"
-    },
-    14: {
-      className: "little-block"
-    },
-    15: {
-      className: "little-block"
-    },
-    16: {
-      className: "little-block"
-    },
-    17: {
-      className: "little-block"
-    },
-    18: {
-      className: "little-block"
-    },
-    19: {
-      className: "little-block"
-    },
-    20: {
-      className: "little-block"
-    },
-    1: {
-      className: "little-block"
-    },
-    2: {
+    312: {
       className: "little-block-selected"
     },
-    3: {
+    313: {
       className: "little-block"
     },
-    4: {
+    314: {
       className: "little-block"
     },
-    5: {
+    315: {
       className: "little-block"
     },
-    6: {
+    316: {
       className: "little-block"
     },
-    7: {
+    317: {
       className: "little-block"
     },
-    8: {
+    318: {
       className: "little-block"
     },
-    9: {
+    319: {
       className: "little-block"
     },
-    10: {
+    32: {
       className: "little-block"
     },
-    11: {
+    321: {
       className: "little-block"
     },
-    12: {
-      className: "little-block"
-    },
-    13: {
-      className: "little-block"
-    },
-    14: {
-      className: "little-block"
-    },
-    15: {
-      className: "little-block"
-    },
-    16: {
-      className: "little-block"
-    },
-    17: {
-      className: "little-block"
-    },
-    18: {
-      className: "little-block"
-    },
-    19: {
-      className: "little-block"
-    },
-    20: {
-      className: "little-block"
-    },
-    1: {
-      className: "little-block"
-    },
-    2: {
+    322: {
       className: "little-block-selected"
     },
-    3: {
+    323: {
       className: "little-block"
     },
-    4: {
+    324: {
       className: "little-block"
     },
-    5: {
+    325: {
       className: "little-block"
     },
-    6: {
+    326: {
       className: "little-block"
     },
-    7: {
+    327: {
       className: "little-block"
     },
-    8: {
+    328: {
       className: "little-block"
     },
-    9: {
+    329: {
       className: "little-block"
     },
-    10: {
+    330: {
       className: "little-block"
     },
-    11: {
+    331: {
       className: "little-block"
     },
-    12: {
-      className: "little-block"
-    },
-    13: {
-      className: "little-block"
-    },
-    14: {
-      className: "little-block"
-    },
-    15: {
-      className: "little-block"
-    },
-    16: {
-      className: "little-block"
-    },
-    17: {
-      className: "little-block"
-    },
-    18: {
-      className: "little-block"
-    },
-    19: {
-      className: "little-block"
-    },
-    20: {
-      className: "little-block"
-    },
-    1: {
-      className: "little-block"
-    },
-    2: {
+    332: {
       className: "little-block-selected"
     },
-    3: {
+    333: {
       className: "little-block"
     },
-    4: {
+    334: {
       className: "little-block"
     },
-    5: {
+    335: {
       className: "little-block"
     },
-    6: {
+    336: {
       className: "little-block"
     },
-    7: {
+    337: {
       className: "little-block"
     },
-    8: {
+    338: {
       className: "little-block"
     },
-    9: {
+    339: {
       className: "little-block"
     },
-    10: {
+    340: {
       className: "little-block"
     },
-    11: {
+    341: {
       className: "little-block"
     },
-    12: {
-      className: "little-block"
-    },
-    13: {
-      className: "little-block"
-    },
-    14: {
-      className: "little-block"
-    },
-    15: {
-      className: "little-block"
-    },
-    16: {
-      className: "little-block"
-    },
-    17: {
-      className: "little-block"
-    },
-    18: {
-      className: "little-block"
-    },
-    19: {
-      className: "little-block"
-    },
-    20: {
-      className: "little-block"
-    },
-    1: {
-      className: "little-block"
-    },
-    2: {
+    342: {
       className: "little-block-selected"
     },
-    3: {
+    343: {
       className: "little-block"
     },
-    4: {
+    344: {
       className: "little-block"
     },
-    5: {
+    345: {
       className: "little-block"
     },
-    6: {
+    346: {
       className: "little-block"
     },
-    7: {
+    347: {
       className: "little-block"
     },
-    8: {
+    348: {
       className: "little-block"
     },
-    9: {
+    349: {
       className: "little-block"
     },
-    10: {
+    350: {
       className: "little-block"
     },
-    11: {
+    351: {
       className: "little-block"
     },
-    12: {
-      className: "little-block"
-    },
-    13: {
-      className: "little-block"
-    },
-    14: {
-      className: "little-block"
-    },
-    15: {
-      className: "little-block"
-    },
-    16: {
-      className: "little-block"
-    },
-    17: {
-      className: "little-block"
-    },
-    18: {
-      className: "little-block"
-    },
-    19: {
-      className: "little-block"
-    },
-    20: {
-      className: "little-block"
-    },
-    1: {
-      className: "little-block"
-    },
-    2: {
+    352: {
       className: "little-block-selected"
     },
-    3: {
+    353: {
       className: "little-block"
     },
-    4: {
+    354: {
       className: "little-block"
     },
-    5: {
+    355: {
       className: "little-block"
     },
-    6: {
+    356: {
       className: "little-block"
     },
-    7: {
+    357: {
       className: "little-block"
     },
-    8: {
+    358: {
       className: "little-block"
     },
-    9: {
+    359: {
       className: "little-block"
     },
-    10: {
+    360: {
       className: "little-block"
     },
-    11: {
+    361: {
       className: "little-block"
     },
-    12: {
-      className: "little-block"
-    },
-    13: {
-      className: "little-block"
-    },
-    14: {
-      className: "little-block"
-    },
-    15: {
-      className: "little-block"
-    },
-    16: {
-      className: "little-block"
-    },
-    17: {
-      className: "little-block"
-    },
-    18: {
-      className: "little-block"
-    },
-    19: {
-      className: "little-block"
-    },
-    20: {
-      className: "little-block"
-    },
-    1: {
-      className: "little-block"
-    },
-    2: {
+    362: {
       className: "little-block-selected"
     },
-    3: {
+    363: {
       className: "little-block"
     },
-    4: {
+    364: {
       className: "little-block"
     },
-    5: {
+    365: {
       className: "little-block"
     },
-    6: {
+    366: {
       className: "little-block"
     },
-    7: {
+    367: {
       className: "little-block"
     },
-    8: {
+    368: {
       className: "little-block"
     },
-    9: {
+    369: {
       className: "little-block"
     },
-    10: {
+    370: {
       className: "little-block"
     },
-    11: {
+    371: {
       className: "little-block"
     },
-    12: {
-      className: "little-block"
-    },
-    13: {
-      className: "little-block"
-    },
-    14: {
-      className: "little-block"
-    },
-    15: {
-      className: "little-block"
-    },
-    16: {
-      className: "little-block"
-    },
-    17: {
-      className: "little-block"
-    },
-    18: {
-      className: "little-block"
-    },
-    19: {
-      className: "little-block"
-    },
-    20: {
-      className: "little-block"
-    },
-    1: {
-      className: "little-block"
-    },
-    2: {
+    372: {
       className: "little-block-selected"
     },
-    3: {
+    373: {
       className: "little-block"
     },
-    4: {
+    374: {
       className: "little-block"
     },
-    5: {
+    375: {
       className: "little-block"
     },
-    6: {
+    376: {
       className: "little-block"
     },
-    7: {
+    377: {
       className: "little-block"
     },
-    8: {
+    378: {
       className: "little-block"
     },
-    9: {
+    379: {
       className: "little-block"
     },
-    10: {
+    380: {
       className: "little-block"
     },
-    11: {
+    381: {
       className: "little-block"
     },
-    12: {
-      className: "little-block"
-    },
-    13: {
-      className: "little-block"
-    },
-    14: {
-      className: "little-block"
-    },
-    15: {
-      className: "little-block"
-    },
-    16: {
-      className: "little-block"
-    },
-    17: {
-      className: "little-block"
-    },
-    18: {
-      className: "little-block"
-    },
-    19: {
-      className: "little-block"
-    },
-    20: {
-      className: "little-block"
-    },
-    1: {
-      className: "little-block"
-    },
-    2: {
+    382: {
       className: "little-block-selected"
     },
-    3: {
+    383: {
       className: "little-block"
     },
-    4: {
+    384: {
       className: "little-block"
     },
-    5: {
+    385: {
       className: "little-block"
     },
-    6: {
+    386: {
       className: "little-block"
     },
-    7: {
+    387: {
       className: "little-block"
     },
-    8: {
+    388: {
       className: "little-block"
     },
-    9: {
+    389: {
       className: "little-block"
     },
-    10: {
+    390: {
       className: "little-block"
     },
-    11: {
+    391: {
       className: "little-block"
     },
-    12: {
-      className: "little-block"
-    },
-    13: {
-      className: "little-block"
-    },
-    14: {
-      className: "little-block"
-    },
-    15: {
-      className: "little-block"
-    },
-    16: {
-      className: "little-block"
-    },
-    17: {
-      className: "little-block"
-    },
-    18: {
-      className: "little-block"
-    },
-    19: {
-      className: "little-block"
-    },
-    20: {
-      className: "little-block"
-    },
-    1: {
-      className: "little-block"
-    },
-    2: {
+    392: {
       className: "little-block-selected"
     },
-    3: {
+    393: {
       className: "little-block"
     },
-    4: {
+    394: {
       className: "little-block"
     },
-    5: {
+    395: {
       className: "little-block"
     },
-    6: {
+    396: {
       className: "little-block"
     },
-    7: {
+    397: {
       className: "little-block"
     },
-    8: {
+    398: {
       className: "little-block"
     },
-    9: {
+    399: {
       className: "little-block"
     },
-    10: {
+    400: {
       className: "little-block"
     },
-    11: {
-      className: "little-block"
-    },
-    12: {
-      className: "little-block"
-    },
-    13: {
-      className: "little-block"
-    },
-    14: {
-      className: "little-block"
-    },
-    15: {
-      className: "little-block"
-    },
-    16: {
-      className: "little-block"
-    },
-    17: {
-      className: "little-block"
-    },
-    18: {
-      className: "little-block"
-    },
-    19: {
-      className: "little-block"
-    },
-    20: {
-      className: "little-block"
-    },
-    1: {
-      className: "little-block"
-    },
-    2: {
-      className: "little-block-selected"
-    },
-    3: {
-      className: "little-block"
-    },
-    4: {
-      className: "little-block"
-    },
-    5: {
-      className: "little-block"
-    },
-    6: {
-      className: "little-block"
-    },
-    7: {
-      className: "little-block"
-    },
-    8: {
-      className: "little-block"
-    },
-    9: {
-      className: "little-block"
-    },
-    10: {
-      className: "little-block"
-    },
-    11: {
-      className: "little-block"
-    },
-    12: {
-      className: "little-block"
-    },
-    13: {
-      className: "little-block"
-    },
-    14: {
-      className: "little-block"
-    },
-    15: {
-      className: "little-block"
-    },
-    16: {
-      className: "little-block"
-    },
-    17: {
-      className: "little-block"
-    },
-    18: {
-      className: "little-block"
-    },
-    19: {
-      className: "little-block"
-    },
-    20: {
-      className: "little-block"
-    },
-    1: {
-      className: "little-block"
-    },
-    2: {
-      className: "little-block-selected"
-    },
-    3: {
-      className: "little-block"
-    },
-    4: {
-      className: "little-block"
-    },
-    5: {
-      className: "little-block"
-    },
-    6: {
-      className: "little-block"
-    },
-    7: {
-      className: "little-block"
-    },
-    8: {
-      className: "little-block"
-    },
-    9: {
-      className: "little-block"
-    },
-    10: {
-      className: "little-block"
-    },
-    11: {
-      className: "little-block"
-    },
-    12: {
-      className: "little-block"
-    },
-    13: {
-      className: "little-block"
-    },
-    14: {
-      className: "little-block"
-    },
-    15: {
-      className: "little-block"
-    },
-    16: {
-      className: "little-block"
-    },
-    17: {
-      className: "little-block"
-    },
-    18: {
-      className: "little-block"
-    },
-    19: {
-      className: "little-block"
-    },
-    20: {
-      className: "little-block"
-    },
-  });
 
+
+  });
   function changeRight() {
     setPosition({
       position: position.position + 1
@@ -1108,53 +1409,53 @@ function Game() {
     <div className="BOX">
     <div className="Game">
       <div className="block">
-        <div className={positionState[1].className} id="1"></div>
-        <div className={positionState[2].className} id="2"></div>
-        <div className={positionState[3].className} id="3"></div>
-        <div className={positionState[4].className} id="4"></div>
-        <div className={positionState[5].className} id="5"></div>
-        <div className={positionState[6].className} id="6"></div>
-        <div className={positionState[7].className} id="7"></div>
-        <div className={positionState[8].className} id="8"></div>
-        <div className={positionState[9].className} id="9"></div>
-        <div className={positionState[10].className} id="10"></div>
-        <div className={positionState[11].className} id="11"></div>
-        <div className={positionState[12].className} id="12"></div>
-        <div className={positionState[13].className} id="13"></div>
-        <div className={positionState[14].className} id="14"></div>
-        <div className={positionState[15].className} id="15"></div>
-        <div className={positionState[16].className} id="16"></div>
-        <div className={positionState[17].className} id="17"></div>
-        <div className={positionState[18].className} id="18"></div>
-        <div className={positionState[19].className} id="19"></div>
-        <div className={positionState[20].className} id="20"></div>
+        <div className="block-block" id="1"></div>
+        <div className="block-block" id="2"></div>
+        <div className="block-block" id="3"></div>
+        <div className="block-block" id="4"></div>
+        <div className="block-block" id="5"></div>
+        <div className="block-block" id="6"></div>
+        <div className="block-block" id="7"></div>
+        <div className="block-block" id="8"></div>
+        <div className="block-block" id="9"></div>
+        <div className="block-block"  id="10"></div>
+        <div className="block-block"  id="11"></div>
+        <div className="block-block"  id="12"></div>
+        <div className="block-block"  id="13"></div>
+        <div className="block-block"  id="14"></div>
+        <div className="block-block"  id="15"></div>
+        <div className="block-block"  id="16"></div>
+        <div className="block-block"  id="17"></div>
+        <div className="block-block"  id="18"></div>
+        <div className="block-block"  id="19"></div>
+        <div className="block-block"  id="20"></div>
       </div>
 
       <div className="block">
-       <div className="little-block" id="21"></div>
-        <div className="little-block" id="22"></div>
-        <div className="little-block" id="23"></div>
-        <div className="little-block" id="24"></div>
-        <div className="little-block" id="25"></div>
-        <div className="little-block" id="26"></div>
-        <div className="little-block" id="27"></div>
-        <div className="little-block" id="28"></div>
-        <div className="little-block" id="29"></div>
-        <div className="little-block" id="30"></div>
-        <div className="little-block" id="31"></div>
-        <div className="little-block" id="32"></div>
-        <div className="little-block" id="33"></div>
-        <div className="little-block" id="34"></div>
-        <div className="little-block" id="35"></div>
-        <div className="little-block" id="36"></div>
-        <div className="little-block" id="37"></div>
-        <div className="little-block" id="38"></div>
-        <div className="little-block" id="39"></div>
-        <div className="little-block" id="40"></div>
+       <div className="block-block" id="21"></div>
+        <div className={positionState[2].className} id="22"></div>
+        <div className={positionState[3].className} id="23"></div>
+        <div className={positionState[4].className} id="24"></div>
+        <div className={positionState[5].className} id="25"></div>
+        <div className={positionState[6].className} id="26"></div>
+        <div className={positionState[7].className} id="27"></div>
+        <div className={positionState[8].className} id="28"></div>
+        <div className={positionState[9].className} id="29"></div>
+        <div className={positionState[10].className} id="30"></div>
+        <div className={positionState[11].className} id="31"></div>
+        <div className={positionState[12].className} id="32"></div>
+        <div className={positionState[13].className} id="33"></div>
+        <div className={positionState[14].className} id="34"></div>
+        <div className={positionState[15].className} id="35"></div>
+        <div className={positionState[16].className} id="36"></div>
+        <div className={positionState[17].className} id="37"></div>
+        <div className={positionState[18].className} id="38"></div>
+        <div className={positionState[19].className} id="39"></div>
+        <div className="block-block" id="40"></div>
       </div>
 
       <div className="block">
-        <div className="little-block" id="41"></div>
+        <div className="block-block" id="41"></div>
         <div className="little-block" id="42"></div>
         <div className="little-block" id="43"></div>
         <div className="little-block" id="44"></div>
@@ -1173,11 +1474,11 @@ function Game() {
         <div className="little-block" id="57"></div>
         <div className="little-block" id="58"></div>
         <div className="little-block" id="59"></div>
-        <div className="little-block" id="60"></div>
+        <div className="block-block" id="60"></div>
 
       </div>
       <div className="block">
-        <div className="little-block" id="61"></div>
+        <div className="block-block" id="61"></div>
         <div className="little-block" id="62"></div>
         <div className="little-block" id="63"></div>
         <div className="little-block" id="64"></div>
@@ -1196,12 +1497,12 @@ function Game() {
         <div className="little-block" id="77"></div>
         <div className="little-block" id="78"></div>
         <div className="little-block" id="79"></div>
-        <div className="little-block" id="80"></div>
+        <div className="block-block" id="80"></div>
 
       </div>
       <div className="block">
         
-        <div className="little-block" id="81"></div>
+        <div className="block-block" id="81"></div>
         <div className="little-block" id="82"></div>
         <div className="little-block" id="83"></div>
         <div className="little-block" id="84"></div>
@@ -1220,12 +1521,12 @@ function Game() {
         <div className="little-block" id="97"></div>
         <div className="little-block" id="98"></div>
         <div className="little-block" id="99"></div>
-        <div className="little-block" id="100"></div>
+        <div className="block-block" id="100"></div>
 
       </div>
       <div className="block">
         
-        <div className="little-block" id="101"></div>
+        <div className="block-block" id="101"></div>
         <div className="little-block" id="102"></div>
         <div className="little-block" id="103"></div>
         <div className="little-block" id="104"></div>
@@ -1244,12 +1545,12 @@ function Game() {
         <div className="little-block" id="117"></div>
         <div className="little-block" id="118"></div>
         <div className="little-block" id="119"></div>
-        <div className="little-block" id="120"></div>
+        <div className="block-block" id="120"></div>
 
       </div>
       <div className="block">
         
-        <div className="little-block" id="121"></div>
+        <div className="block-block" id="121"></div>
         <div className="little-block" id="122"></div>
         <div className="little-block" id="123"></div>
         <div className="little-block" id="124"></div>
@@ -1268,12 +1569,12 @@ function Game() {
         <div className="little-block" id="137"></div>
         <div className="little-block" id="138"></div>
         <div className="little-block" id="139"></div>
-        <div className="little-block" id="140"></div>
+        <div className="block-block" id="140"></div>
 
       </div>
       <div className="block">
         
-        <div className="little-block" id="141"></div>
+        <div className="block-block"id="141"></div>
         <div className="little-block" id="142"></div>
         <div className="little-block" id="143"></div>
         <div className="little-block" id="144"></div>
@@ -1292,12 +1593,12 @@ function Game() {
         <div className="little-block" id="157"></div>
         <div className="little-block" id="158"></div>
         <div className="little-block" id="159"></div>
-        <div className="little-block" id="160"></div>
+        <div className="block-block" id="160"></div>
 
       </div>
       <div className="block">
         
-        <div className="little-block" id="161"></div>
+        <div className="block-block" id="161"></div>
         <div className="little-block" id="162"></div>
         <div className="little-block" id="163"></div>
         <div className="little-block" id="164"></div>
@@ -1316,12 +1617,12 @@ function Game() {
         <div className="little-block" id="177"></div>
         <div className="little-block" id="178"></div>
         <div className="little-block" id="179"></div>
-        <div className="little-block" id="180"></div>
+        <div className="block-block" id="180"></div>
 
       </div>
       <div className="block">
         
-        <div className="little-block" id="181"></div>
+        <div className="block-block" id="181"></div>
         <div className="little-block" id="182"></div>
         <div className="little-block" id="183"></div>
         <div className="little-block" id="184"></div>
@@ -1340,12 +1641,12 @@ function Game() {
         <div className="little-block" id="197"></div>
         <div className="little-block" id="198"></div>
         <div className="little-block" id="209"></div>
-        <div className="little-block" id="200"></div>
+        <div className="block-block" id="200"></div>
 
       </div>
       <div className="block">
         
-        <div className="little-block" id="201"></div>
+        <div className="block-block" id="201"></div>
         <div className="little-block" id="202"></div>
         <div className="little-block" id="203"></div>
         <div className="little-block" id="204"></div>
@@ -1364,12 +1665,12 @@ function Game() {
         <div className="little-block" id="217"></div>
         <div className="little-block" id="218"></div>
         <div className="little-block" id="219"></div>
-        <div className="little-block" id="220"></div>
+        <div className="block-block" id="220"></div>
 
       </div>
       <div className="block">
         
-        <div className="little-block" id="221"></div>
+        <div className="block-block" id="221"></div>
         <div className="little-block" id="222"></div>
         <div className="little-block" id="223"></div>
         <div className="little-block" id="224"></div>
@@ -1388,12 +1689,12 @@ function Game() {
         <div className="little-block" id="237"></div>
         <div className="little-block" id="238"></div>
         <div className="little-block" id="239"></div>
-        <div className="little-block" id="240"></div>
+        <div className="block-block" id="240"></div>
 
       </div>
       <div className="block">
         
-        <div className="little-block" id="241"></div>
+        <div className="block-block" id="241"></div>
         <div className="little-block" id="242"></div>
         <div className="little-block" id="243"></div>
         <div className="little-block" id="244"></div>
@@ -1412,12 +1713,12 @@ function Game() {
         <div className="little-block" id="257"></div>
         <div className="little-block" id="258"></div>
         <div className="little-block" id="259"></div>
-        <div className="little-block" id="260"></div>
+        <div className="block-block" id="260"></div>
 
       </div>
       <div className="block">
         
-        <div className="little-block" id="261"></div>
+        <div className="block-block" id="261"></div>
         <div className="little-block" id="262"></div>
         <div className="little-block" id="263"></div>
         <div className="little-block" id="264"></div>
@@ -1436,12 +1737,12 @@ function Game() {
         <div className="little-block" id="277"></div>
         <div className="little-block" id="278"></div>
         <div className="little-block" id="279"></div>
-        <div className="little-block" id="280"></div>
+        <div className="block-block" id="280"></div>
 
       </div>
       <div className="block">
         
-        <div className="little-block" id="281"></div>
+        <div className="block-block" id="281"></div>
         <div className="little-block" id="282"></div>
         <div className="little-block" id="283"></div>
         <div className="little-block" id="284"></div>
@@ -1460,12 +1761,12 @@ function Game() {
         <div className="little-block" id="297"></div>
         <div className="little-block" id="298"></div>
         <div className="little-block" id="299"></div>
-        <div className="little-block" id="300"></div>
+        <div className="block-block" id="300"></div>
 
       </div>
       <div className="block">
         
-        <div className="little-block" id="301"></div>
+        <div className="block-block" id="301"></div>
         <div className="little-block" id="302"></div>
         <div className="little-block" id="303"></div>
         <div className="little-block" id="304"></div>
@@ -1484,12 +1785,12 @@ function Game() {
         <div className="little-block" id="317"></div>
         <div className="little-block" id="318"></div>
         <div className="little-block" id="319"></div>
-        <div className="little-block" id="320"></div>
+        <div className="block-block" id="320"></div>
 
       </div>
       <div className="block">
         
-        <div className="little-block" id="321"></div>
+        <div className="block-block" id="321"></div>
         <div className="little-block" id="322"></div>
         <div className="little-block" id="323"></div>
         <div className="little-block" id="324"></div>
@@ -1508,12 +1809,12 @@ function Game() {
         <div className="little-block" id="337"></div>
         <div className="little-block" id="338"></div>
         <div className="little-block" id="339"></div>
-        <div className="little-block" id="340"></div>
+        <div className="block-block" id="340"></div>
 
       </div>
       <div className="block">
         
-        <div className="little-block" id="341"></div>
+        <div className="block-block" id="341"></div>
         <div className="little-block" id="342"></div>
         <div className="little-block" id="343"></div>
         <div className="little-block" id="344"></div>
@@ -1532,12 +1833,12 @@ function Game() {
         <div className="little-block" id="357"></div>
         <div className="little-block" id="358"></div>
         <div className="little-block" id="359"></div>
-        <div className="little-block" id="360"></div>
+        <div className="block-block" id="360"></div>
 
       </div>
       <div className="block">
         
-        <div className="little-block" id="361"></div>
+        <div className="block-block" id="361"></div>
         <div className="little-block" id="362"></div>
         <div className="little-block" id="363"></div>
         <div className="little-block" id="364"></div>
@@ -1556,31 +1857,31 @@ function Game() {
         <div className="little-block" id="377"></div>
         <div className="little-block" id="378"></div>
         <div className="little-block" id="379"></div>
-        <div className="little-block" id="380"></div>
+        <div className="block-block" id="380"></div>
 
       </div>
       <div className="block">
         
-        <div className="little-block" id="381"></div>
-        <div className="little-block" id="382"></div>
-        <div className="little-block" id="383"></div>
-        <div className="little-block" id="384"></div>
-        <div className="little-block" id="385"></div>
-        <div className="little-block" id="386"></div>
-        <div className="little-block" id="387"></div>
-        <div className="little-block" id="388"></div>
-        <div className="little-block" id="389"></div>
-        <div className="little-block" id="390"></div>
-        <div className="little-block" id="391"></div>
-        <div className="little-block" id="392"></div>
-        <div className="little-block" id="393"></div>
-        <div className="little-block" id="394"></div>
-        <div className="little-block" id="395"></div>
-        <div className="little-block" id="396"></div>
-        <div className="little-block" id="397"></div>
-        <div className="little-block" id="398"></div>
-        <div className="little-block" id="399"></div>
-        <div className="little-block" id="400"></div>
+        <div className="block-block" id="381"></div>
+        <div className="block-block" id="382"></div>
+        <div className="block-block" id="383"></div>
+        <div className="block-block" id="384"></div>
+        <div className="block-block" id="385"></div>
+        <div className="block-block" id="386"></div>
+        <div className="block-block" id="387"></div>
+        <div className="block-block" id="388"></div>
+        <div className="block-block" id="389"></div>
+        <div className="block-block" id="390"></div>
+        <div className="block-block" id="391"></div>
+        <div className="block-block" id="392"></div>
+        <div className="block-block" id="393"></div>
+        <div className="block-block" id="394"></div>
+        <div className="block-block" id="395"></div>
+        <div className="block-block" id="396"></div>
+        <div className="block-block" id="397"></div>
+        <div className="block-block" id="398"></div>
+        <div className="block-block" id="399"></div>
+        <div className="block-block" id="400"></div>
 
       </div>
     </div>

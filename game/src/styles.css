@@ -38,6 +38,13 @@ body {
     background-color: rgb(255, 123, 0);
 }
 
+.block-block{
+    height: 28px;
+    width: 28px;
+    border: solid 1px rgb(31, 31, 31);
+    background-color: red;
+}
+
 
 
 
@@ -59,3 +66,4 @@ body {
     opacity: 30%;
     transition: 0.12s;
 }
+
