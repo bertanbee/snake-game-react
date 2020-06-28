@@ -8,229 +8,1126 @@ import './styles.css';
 
 function Game() {
 
+  const [ position, setPosition ] = useState({
+    position: 2
+  })
+
   const [ positionState, setPositionState ] = useState({
-    position1: {
+    1: {
+      className: "little-block"
+    },
+    2: {
       className: "little-block-selected"
     },
-    position2: {
+    3: {
       className: "little-block"
     },
-    position3: {
+    4: {
       className: "little-block"
     },
-    position4: {
+    5: {
       className: "little-block"
     },
-    
-
+    6: {
+      className: "little-block"
+    },
+    7: {
+      className: "little-block"
+    },
+    8: {
+      className: "little-block"
+    },
+    9: {
+      className: "little-block"
+    },
+    10: {
+      className: "little-block"
+    },
+    11: {
+      className: "little-block"
+    },
+    12: {
+      className: "little-block"
+    },
+    13: {
+      className: "little-block"
+    },
+    14: {
+      className: "little-block"
+    },
+    15: {
+      className: "little-block"
+    },
+    16: {
+      className: "little-block"
+    },
+    17: {
+      className: "little-block"
+    },
+    18: {
+      className: "little-block"
+    },
+    19: {
+      className: "little-block"
+    },
+    20: {
+      className: "little-block"
+    },
+    21: {
+      className: "little-block"
+    },
+    22: {
+      className: "little-block-selected"
+    },
+    23: {
+      className: "little-block"
+    },
+    24: {
+      className: "little-block"
+    },
+    25: {
+      className: "little-block"
+    },
+    26: {
+      className: "little-block"
+    },
+    27: {
+      className: "little-block"
+    },
+    28: {
+      className: "little-block"
+    },
+    29: {
+      className: "little-block"
+    },
+    30: {
+      className: "little-block"
+    },
+    11: {
+      className: "little-block"
+    },
+    12: {
+      className: "little-block"
+    },
+    13: {
+      className: "little-block"
+    },
+    14: {
+      className: "little-block"
+    },
+    15: {
+      className: "little-block"
+    },
+    16: {
+      className: "little-block"
+    },
+    17: {
+      className: "little-block"
+    },
+    18: {
+      className: "little-block"
+    },
+    19: {
+      className: "little-block"
+    },
+    20: {
+      className: "little-block"
+    },
+    1: {
+      className: "little-block"
+    },
+    2: {
+      className: "little-block-selected"
+    },
+    3: {
+      className: "little-block"
+    },
+    4: {
+      className: "little-block"
+    },
+    5: {
+      className: "little-block"
+    },
+    6: {
+      className: "little-block"
+    },
+    7: {
+      className: "little-block"
+    },
+    8: {
+      className: "little-block"
+    },
+    9: {
+      className: "little-block"
+    },
+    10: {
+      className: "little-block"
+    },
+    11: {
+      className: "little-block"
+    },
+    12: {
+      className: "little-block"
+    },
+    13: {
+      className: "little-block"
+    },
+    14: {
+      className: "little-block"
+    },
+    15: {
+      className: "little-block"
+    },
+    16: {
+      className: "little-block"
+    },
+    17: {
+      className: "little-block"
+    },
+    18: {
+      className: "little-block"
+    },
+    19: {
+      className: "little-block"
+    },
+    20: {
+      className: "little-block"
+    },
+    1: {
+      className: "little-block"
+    },
+    2: {
+      className: "little-block-selected"
+    },
+    3: {
+      className: "little-block"
+    },
+    4: {
+      className: "little-block"
+    },
+    5: {
+      className: "little-block"
+    },
+    6: {
+      className: "little-block"
+    },
+    7: {
+      className: "little-block"
+    },
+    8: {
+      className: "little-block"
+    },
+    9: {
+      className: "little-block"
+    },
+    10: {
+      className: "little-block"
+    },
+    11: {
+      className: "little-block"
+    },
+    12: {
+      className: "little-block"
+    },
+    13: {
+      className: "little-block"
+    },
+    14: {
+      className: "little-block"
+    },
+    15: {
+      className: "little-block"
+    },
+    16: {
+      className: "little-block"
+    },
+    17: {
+      className: "little-block"
+    },
+    18: {
+      className: "little-block"
+    },
+    19: {
+      className: "little-block"
+    },
+    20: {
+      className: "little-block"
+    },
+    1: {
+      className: "little-block"
+    },
+    2: {
+      className: "little-block-selected"
+    },
+    3: {
+      className: "little-block"
+    },
+    4: {
+      className: "little-block"
+    },
+    5: {
+      className: "little-block"
+    },
+    6: {
+      className: "little-block"
+    },
+    7: {
+      className: "little-block"
+    },
+    8: {
+      className: "little-block"
+    },
+    9: {
+      className: "little-block"
+    },
+    10: {
+      className: "little-block"
+    },
+    11: {
+      className: "little-block"
+    },
+    12: {
+      className: "little-block"
+    },
+    13: {
+      className: "little-block"
+    },
+    14: {
+      className: "little-block"
+    },
+    15: {
+      className: "little-block"
+    },
+    16: {
+      className: "little-block"
+    },
+    17: {
+      className: "little-block"
+    },
+    18: {
+      className: "little-block"
+    },
+    19: {
+      className: "little-block"
+    },
+    20: {
+      className: "little-block"
+    },
+    1: {
+      className: "little-block"
+    },
+    2: {
+      className: "little-block-selected"
+    },
+    3: {
+      className: "little-block"
+    },
+    4: {
+      className: "little-block"
+    },
+    5: {
+      className: "little-block"
+    },
+    6: {
+      className: "little-block"
+    },
+    7: {
+      className: "little-block"
+    },
+    8: {
+      className: "little-block"
+    },
+    9: {
+      className: "little-block"
+    },
+    10: {
+      className: "little-block"
+    },
+    11: {
+      className: "little-block"
+    },
+    12: {
+      className: "little-block"
+    },
+    13: {
+      className: "little-block"
+    },
+    14: {
+      className: "little-block"
+    },
+    15: {
+      className: "little-block"
+    },
+    16: {
+      className: "little-block"
+    },
+    17: {
+      className: "little-block"
+    },
+    18: {
+      className: "little-block"
+    },
+    19: {
+      className: "little-block"
+    },
+    20: {
+      className: "little-block"
+    },
+    1: {
+      className: "little-block"
+    },
+    2: {
+      className: "little-block-selected"
+    },
+    3: {
+      className: "little-block"
+    },
+    4: {
+      className: "little-block"
+    },
+    5: {
+      className: "little-block"
+    },
+    6: {
+      className: "little-block"
+    },
+    7: {
+      className: "little-block"
+    },
+    8: {
+      className: "little-block"
+    },
+    9: {
+      className: "little-block"
+    },
+    10: {
+      className: "little-block"
+    },
+    11: {
+      className: "little-block"
+    },
+    12: {
+      className: "little-block"
+    },
+    13: {
+      className: "little-block"
+    },
+    14: {
+      className: "little-block"
+    },
+    15: {
+      className: "little-block"
+    },
+    16: {
+      className: "little-block"
+    },
+    17: {
+      className: "little-block"
+    },
+    18: {
+      className: "little-block"
+    },
+    19: {
+      className: "little-block"
+    },
+    20: {
+      className: "little-block"
+    },
+    1: {
+      className: "little-block"
+    },
+    2: {
+      className: "little-block-selected"
+    },
+    3: {
+      className: "little-block"
+    },
+    4: {
+      className: "little-block"
+    },
+    5: {
+      className: "little-block"
+    },
+    6: {
+      className: "little-block"
+    },
+    7: {
+      className: "little-block"
+    },
+    8: {
+      className: "little-block"
+    },
+    9: {
+      className: "little-block"
+    },
+    10: {
+      className: "little-block"
+    },
+    11: {
+      className: "little-block"
+    },
+    12: {
+      className: "little-block"
+    },
+    13: {
+      className: "little-block"
+    },
+    14: {
+      className: "little-block"
+    },
+    15: {
+      className: "little-block"
+    },
+    16: {
+      className: "little-block"
+    },
+    17: {
+      className: "little-block"
+    },
+    18: {
+      className: "little-block"
+    },
+    19: {
+      className: "little-block"
+    },
+    20: {
+      className: "little-block"
+    },
+    1: {
+      className: "little-block"
+    },
+    2: {
+      className: "little-block-selected"
+    },
+    3: {
+      className: "little-block"
+    },
+    4: {
+      className: "little-block"
+    },
+    5: {
+      className: "little-block"
+    },
+    6: {
+      className: "little-block"
+    },
+    7: {
+      className: "little-block"
+    },
+    8: {
+      className: "little-block"
+    },
+    9: {
+      className: "little-block"
+    },
+    10: {
+      className: "little-block"
+    },
+    11: {
+      className: "little-block"
+    },
+    12: {
+      className: "little-block"
+    },
+    13: {
+      className: "little-block"
+    },
+    14: {
+      className: "little-block"
+    },
+    15: {
+      className: "little-block"
+    },
+    16: {
+      className: "little-block"
+    },
+    17: {
+      className: "little-block"
+    },
+    18: {
+      className: "little-block"
+    },
+    19: {
+      className: "little-block"
+    },
+    20: {
+      className: "little-block"
+    },
+    1: {
+      className: "little-block"
+    },
+    2: {
+      className: "little-block-selected"
+    },
+    3: {
+      className: "little-block"
+    },
+    4: {
+      className: "little-block"
+    },
+    5: {
+      className: "little-block"
+    },
+    6: {
+      className: "little-block"
+    },
+    7: {
+      className: "little-block"
+    },
+    8: {
+      className: "little-block"
+    },
+    9: {
+      className: "little-block"
+    },
+    10: {
+      className: "little-block"
+    },
+    11: {
+      className: "little-block"
+    },
+    12: {
+      className: "little-block"
+    },
+    13: {
+      className: "little-block"
+    },
+    14: {
+      className: "little-block"
+    },
+    15: {
+      className: "little-block"
+    },
+    16: {
+      className: "little-block"
+    },
+    17: {
+      className: "little-block"
+    },
+    18: {
+      className: "little-block"
+    },
+    19: {
+      className: "little-block"
+    },
+    20: {
+      className: "little-block"
+    },
+    1: {
+      className: "little-block"
+    },
+    2: {
+      className: "little-block-selected"
+    },
+    3: {
+      className: "little-block"
+    },
+    4: {
+      className: "little-block"
+    },
+    5: {
+      className: "little-block"
+    },
+    6: {
+      className: "little-block"
+    },
+    7: {
+      className: "little-block"
+    },
+    8: {
+      className: "little-block"
+    },
+    9: {
+      className: "little-block"
+    },
+    10: {
+      className: "little-block"
+    },
+    11: {
+      className: "little-block"
+    },
+    12: {
+      className: "little-block"
+    },
+    13: {
+      className: "little-block"
+    },
+    14: {
+      className: "little-block"
+    },
+    15: {
+      className: "little-block"
+    },
+    16: {
+      className: "little-block"
+    },
+    17: {
+      className: "little-block"
+    },
+    18: {
+      className: "little-block"
+    },
+    19: {
+      className: "little-block"
+    },
+    20: {
+      className: "little-block"
+    },
+    1: {
+      className: "little-block"
+    },
+    2: {
+      className: "little-block-selected"
+    },
+    3: {
+      className: "little-block"
+    },
+    4: {
+      className: "little-block"
+    },
+    5: {
+      className: "little-block"
+    },
+    6: {
+      className: "little-block"
+    },
+    7: {
+      className: "little-block"
+    },
+    8: {
+      className: "little-block"
+    },
+    9: {
+      className: "little-block"
+    },
+    10: {
+      className: "little-block"
+    },
+    11: {
+      className: "little-block"
+    },
+    12: {
+      className: "little-block"
+    },
+    13: {
+      className: "little-block"
+    },
+    14: {
+      className: "little-block"
+    },
+    15: {
+      className: "little-block"
+    },
+    16: {
+      className: "little-block"
+    },
+    17: {
+      className: "little-block"
+    },
+    18: {
+      className: "little-block"
+    },
+    19: {
+      className: "little-block"
+    },
+    20: {
+      className: "little-block"
+    },
+    1: {
+      className: "little-block"
+    },
+    2: {
+      className: "little-block-selected"
+    },
+    3: {
+      className: "little-block"
+    },
+    4: {
+      className: "little-block"
+    },
+    5: {
+      className: "little-block"
+    },
+    6: {
+      className: "little-block"
+    },
+    7: {
+      className: "little-block"
+    },
+    8: {
+      className: "little-block"
+    },
+    9: {
+      className: "little-block"
+    },
+    10: {
+      className: "little-block"
+    },
+    11: {
+      className: "little-block"
+    },
+    12: {
+      className: "little-block"
+    },
+    13: {
+      className: "little-block"
+    },
+    14: {
+      className: "little-block"
+    },
+    15: {
+      className: "little-block"
+    },
+    16: {
+      className: "little-block"
+    },
+    17: {
+      className: "little-block"
+    },
+    18: {
+      className: "little-block"
+    },
+    19: {
+      className: "little-block"
+    },
+    20: {
+      className: "little-block"
+    },
+    1: {
+      className: "little-block"
+    },
+    2: {
+      className: "little-block-selected"
+    },
+    3: {
+      className: "little-block"
+    },
+    4: {
+      className: "little-block"
+    },
+    5: {
+      className: "little-block"
+    },
+    6: {
+      className: "little-block"
+    },
+    7: {
+      className: "little-block"
+    },
+    8: {
+      className: "little-block"
+    },
+    9: {
+      className: "little-block"
+    },
+    10: {
+      className: "little-block"
+    },
+    11: {
+      className: "little-block"
+    },
+    12: {
+      className: "little-block"
+    },
+    13: {
+      className: "little-block"
+    },
+    14: {
+      className: "little-block"
+    },
+    15: {
+      className: "little-block"
+    },
+    16: {
+      className: "little-block"
+    },
+    17: {
+      className: "little-block"
+    },
+    18: {
+      className: "little-block"
+    },
+    19: {
+      className: "little-block"
+    },
+    20: {
+      className: "little-block"
+    },
+    1: {
+      className: "little-block"
+    },
+    2: {
+      className: "little-block-selected"
+    },
+    3: {
+      className: "little-block"
+    },
+    4: {
+      className: "little-block"
+    },
+    5: {
+      className: "little-block"
+    },
+    6: {
+      className: "little-block"
+    },
+    7: {
+      className: "little-block"
+    },
+    8: {
+      className: "little-block"
+    },
+    9: {
+      className: "little-block"
+    },
+    10: {
+      className: "little-block"
+    },
+    11: {
+      className: "little-block"
+    },
+    12: {
+      className: "little-block"
+    },
+    13: {
+      className: "little-block"
+    },
+    14: {
+      className: "little-block"
+    },
+    15: {
+      className: "little-block"
+    },
+    16: {
+      className: "little-block"
+    },
+    17: {
+      className: "little-block"
+    },
+    18: {
+      className: "little-block"
+    },
+    19: {
+      className: "little-block"
+    },
+    20: {
+      className: "little-block"
+    },
   });
 
-  const lil = "little-block";
-  const selec = "little-block-selected";
+  function changeRight() {
+    setPosition({
+      position: position.position + 1
+    });
 
-  function changeLeft() {
+    console.log("Position: " + position.position);
     
-    if(positionState.position1.className === "little-block") {
-      if(positionState.position2.className === "little-block") {
-        if(positionState.position3.className === "little-block") {
-          if(positionState.position4.className === "little-block") {
-      
-          } else {
-              setPositionState({
-                position1: {
-                  className: lil
-                },
-                position2: {
-                  className: lil
-                },
-                position3: {
-                  className: selec
-                },
-                position4: {
-                  className: lil
-                },
-                
-            
-              });
-              return;
-          }
-      
-        } else {
-            setPositionState({
-              position1: {
-                className: lil
-              },
-              position2: {
-                className: selec
-              },
-              position3: {
-                className: lil
-              },
-              position4: {
-                className: lil
-              },
-              
-          
-            });
-    
-            return;
-        }
-      } else {
-        setPositionState({
-          position1: {
-            className: selec
-          },
-          position2: {
-            className: lil
-          },
-          position3: {
-            className: lil
-          },
-          position4: {
-            className: lil
-          },
-          
-      
-        });
+    let noStyledPosition = [];
 
-          return;
-      }
-    } else {
-      setPositionState({
-        position1: {
-          className: lil
-        },
-        position2: {
-          className: lil
-        },
-        position3: {
-          className: lil
-        },
-        position4: {
-          className: selec
-        },
-        
-    
-      });
+    let counter = position.position + 1;
+    console.log("Counter: " + counter);
 
-        return;
+    while(counter <= 20) {
+      noStyledPosition.push(counter);
+      counter++;
+      console.log(noStyledPosition);
     }
+
+    counter = position.position - 1;
+
+    while(counter >= 1) {
+      noStyledPosition.push(counter);
+      counter--;
+      console.log(noStyledPosition);
+    }
+
+    setPositionState({
+      [position.position]: {
+        className: "little-block-selected"
+      },
+      [noStyledPosition[0]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[1]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[2]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[3]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[4]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[5]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[6]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[7]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[8]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[9]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[10]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[11]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[12]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[13]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[14]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[15]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[16]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[17]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[18]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[19]]: {
+        className: "little-block"
+      },
+      
+    })
   }
 
-  function changeRight() {
-    if(positionState.position1.className === "little-block") {
-      if(positionState.position2.className === "little-block") {
-        if(positionState.position3.className === "little-block") {
-          if(positionState.position4.className === "little-block") {
-          } else {
-            setPositionState({
-              position1: {
-                className: selec
-              },
-              position2: {
-                className: lil
-              },
-              position3: {
-                className: lil
-              },
-              position4: {
-                className: lil
-              },
-              
-          
-            });
-      
-              return;
-          }
-        } else {
-          setPositionState({
-            position1: {
-              className: lil
-            },
-            position2: {
-              className: lil
-            },
-            position3: {
-              className: lil
-            },
-            position4: {
-              className: selec
-            },
-            
-        
-          });
+  function changeLeft() {
+    setPosition({
+      position: position.position - 1
+    });
+    console.log("Position: " + position.position);
     
-            return;
-        }
-      } else {
-        setPositionState({
-          position1: {
-            className: lil
-          },
-          position2: {
-            className: lil
-          },
-          position3: {
-            className: selec
-          },
-          position4: {
-            className: lil
-          },
-          
-      
-        });
-  
-          return;
-      }
-    } else {
-      setPositionState({
-        position1: {
-          className: lil
-        },
-        position2: {
-          className: selec
-        },
-        position3: {
-          className: lil
-        },
-        position4: {
-          className: lil
-        },
-        
-    
-      });
+    let noStyledPosition = [];
 
-        return;
+    let counter = position.position + 1;
+    console.log("Counter: " + counter);
+
+    while(counter <= 20) {
+      noStyledPosition.push(counter);
+      counter++;
+      console.log(noStyledPosition);
     }
 
+    counter = position.position - 1;
+
+    while(counter >= 1) {
+      noStyledPosition.push(counter);
+      counter--;
+      console.log(noStyledPosition);
+    }
+
+    setPositionState({
+      [position.position]: {
+        className: "little-block-selected"
+      },
+      [noStyledPosition[0]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[1]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[2]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[3]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[4]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[5]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[6]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[7]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[8]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[9]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[10]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[11]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[12]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[13]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[14]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[15]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[16]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[17]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[18]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[19]]: {
+        className: "little-block"
+      },
+      
+    })
     
-}
+  }
 
   return (
     <>
     <div className="BOX">
     <div className="Game">
       <div className="block">
-        <div className={positionState.position1.className} id="1"></div>
-        <div className={positionState.position2.className} id="2"></div>
-        <div className={positionState.position3.className} id="3"></div>
-        <div className={positionState.position4.className} id="4"></div>
-        <div className="little-block" id="5"></div>
-        <div className="little-block" id="6"></div>
-        <div className="little-block" id="7"></div>
-        <div className="little-block" id="8"></div>
-        <div className="little-block" id="9"></div>
-        <div className="little-block" id="10"></div>
-        <div className="little-block" id="11"></div>
-        <div className="little-block" id="12"></div>
-        <div className="little-block" id="13"></div>
-        <div className="little-block" id="14"></div>
-        <div className="little-block" id="15"></div>
-        <div className="little-block" id="16"></div>
-        <div className="little-block" id="17"></div>
-        <div className="little-block" id="18"></div>
-        <div className="little-block" id="19"></div>
-        <div className="little-block" id="20"></div>
+        <div className={positionState[1].className} id="1"></div>
+        <div className={positionState[2].className} id="2"></div>
+        <div className={positionState[3].className} id="3"></div>
+        <div className={positionState[4].className} id="4"></div>
+        <div className={positionState[5].className} id="5"></div>
+        <div className={positionState[6].className} id="6"></div>
+        <div className={positionState[7].className} id="7"></div>
+        <div className={positionState[8].className} id="8"></div>
+        <div className={positionState[9].className} id="9"></div>
+        <div className={positionState[10].className} id="10"></div>
+        <div className={positionState[11].className} id="11"></div>
+        <div className={positionState[12].className} id="12"></div>
+        <div className={positionState[13].className} id="13"></div>
+        <div className={positionState[14].className} id="14"></div>
+        <div className={positionState[15].className} id="15"></div>
+        <div className={positionState[16].className} id="16"></div>
+        <div className={positionState[17].className} id="17"></div>
+        <div className={positionState[18].className} id="18"></div>
+        <div className={positionState[19].className} id="19"></div>
+        <div className={positionState[20].className} id="20"></div>
       </div>
 
       <div className="block">
@@ -281,7 +1178,6 @@ function Game() {
       </div>
       <div className="block">
         <div className="little-block" id="61"></div>
-        <div className="little-block" id="61"></div>
         <div className="little-block" id="62"></div>
         <div className="little-block" id="63"></div>
         <div className="little-block" id="64"></div>
@@ -300,10 +1196,11 @@ function Game() {
         <div className="little-block" id="77"></div>
         <div className="little-block" id="78"></div>
         <div className="little-block" id="79"></div>
+        <div className="little-block" id="80"></div>
 
       </div>
       <div className="block">
-        <div className="little-block" id="80"></div>
+        
         <div className="little-block" id="81"></div>
         <div className="little-block" id="82"></div>
         <div className="little-block" id="83"></div>
@@ -323,10 +1220,11 @@ function Game() {
         <div className="little-block" id="97"></div>
         <div className="little-block" id="98"></div>
         <div className="little-block" id="99"></div>
+        <div className="little-block" id="100"></div>
 
       </div>
       <div className="block">
-        <div className="little-block" id="100"></div>
+        
         <div className="little-block" id="101"></div>
         <div className="little-block" id="102"></div>
         <div className="little-block" id="103"></div>
@@ -346,10 +1244,11 @@ function Game() {
         <div className="little-block" id="117"></div>
         <div className="little-block" id="118"></div>
         <div className="little-block" id="119"></div>
+        <div className="little-block" id="120"></div>
 
       </div>
       <div className="block">
-        <div className="little-block" id="120"></div>
+        
         <div className="little-block" id="121"></div>
         <div className="little-block" id="122"></div>
         <div className="little-block" id="123"></div>
@@ -369,10 +1268,11 @@ function Game() {
         <div className="little-block" id="137"></div>
         <div className="little-block" id="138"></div>
         <div className="little-block" id="139"></div>
+        <div className="little-block" id="140"></div>
 
       </div>
       <div className="block">
-        <div className="little-block" id="140"></div>
+        
         <div className="little-block" id="141"></div>
         <div className="little-block" id="142"></div>
         <div className="little-block" id="143"></div>
@@ -392,10 +1292,11 @@ function Game() {
         <div className="little-block" id="157"></div>
         <div className="little-block" id="158"></div>
         <div className="little-block" id="159"></div>
+        <div className="little-block" id="160"></div>
 
       </div>
       <div className="block">
-        <div className="little-block" id="160"></div>
+        
         <div className="little-block" id="161"></div>
         <div className="little-block" id="162"></div>
         <div className="little-block" id="163"></div>
@@ -415,10 +1316,11 @@ function Game() {
         <div className="little-block" id="177"></div>
         <div className="little-block" id="178"></div>
         <div className="little-block" id="179"></div>
+        <div className="little-block" id="180"></div>
 
       </div>
       <div className="block">
-        <div className="little-block" id="180"></div>
+        
         <div className="little-block" id="181"></div>
         <div className="little-block" id="182"></div>
         <div className="little-block" id="183"></div>
@@ -438,10 +1340,11 @@ function Game() {
         <div className="little-block" id="197"></div>
         <div className="little-block" id="198"></div>
         <div className="little-block" id="209"></div>
+        <div className="little-block" id="200"></div>
 
       </div>
       <div className="block">
-        <div className="little-block" id="200"></div>
+        
         <div className="little-block" id="201"></div>
         <div className="little-block" id="202"></div>
         <div className="little-block" id="203"></div>
@@ -461,10 +1364,11 @@ function Game() {
         <div className="little-block" id="217"></div>
         <div className="little-block" id="218"></div>
         <div className="little-block" id="219"></div>
+        <div className="little-block" id="220"></div>
 
       </div>
       <div className="block">
-        <div className="little-block" id="220"></div>
+        
         <div className="little-block" id="221"></div>
         <div className="little-block" id="222"></div>
         <div className="little-block" id="223"></div>
@@ -484,10 +1388,11 @@ function Game() {
         <div className="little-block" id="237"></div>
         <div className="little-block" id="238"></div>
         <div className="little-block" id="239"></div>
+        <div className="little-block" id="240"></div>
 
       </div>
       <div className="block">
-        <div className="little-block" id="240"></div>
+        
         <div className="little-block" id="241"></div>
         <div className="little-block" id="242"></div>
         <div className="little-block" id="243"></div>
@@ -507,10 +1412,11 @@ function Game() {
         <div className="little-block" id="257"></div>
         <div className="little-block" id="258"></div>
         <div className="little-block" id="259"></div>
+        <div className="little-block" id="260"></div>
 
       </div>
       <div className="block">
-        <div className="little-block" id="260"></div>
+        
         <div className="little-block" id="261"></div>
         <div className="little-block" id="262"></div>
         <div className="little-block" id="263"></div>
@@ -530,10 +1436,11 @@ function Game() {
         <div className="little-block" id="277"></div>
         <div className="little-block" id="278"></div>
         <div className="little-block" id="279"></div>
+        <div className="little-block" id="280"></div>
 
       </div>
       <div className="block">
-        <div className="little-block" id="280"></div>
+        
         <div className="little-block" id="281"></div>
         <div className="little-block" id="282"></div>
         <div className="little-block" id="283"></div>
@@ -553,10 +1460,11 @@ function Game() {
         <div className="little-block" id="297"></div>
         <div className="little-block" id="298"></div>
         <div className="little-block" id="299"></div>
+        <div className="little-block" id="300"></div>
 
       </div>
       <div className="block">
-        <div className="little-block" id="300"></div>
+        
         <div className="little-block" id="301"></div>
         <div className="little-block" id="302"></div>
         <div className="little-block" id="303"></div>
@@ -576,10 +1484,11 @@ function Game() {
         <div className="little-block" id="317"></div>
         <div className="little-block" id="318"></div>
         <div className="little-block" id="319"></div>
+        <div className="little-block" id="320"></div>
 
       </div>
       <div className="block">
-        <div className="little-block" id="320"></div>
+        
         <div className="little-block" id="321"></div>
         <div className="little-block" id="322"></div>
         <div className="little-block" id="323"></div>
@@ -599,10 +1508,11 @@ function Game() {
         <div className="little-block" id="337"></div>
         <div className="little-block" id="338"></div>
         <div className="little-block" id="339"></div>
+        <div className="little-block" id="340"></div>
 
       </div>
       <div className="block">
-        <div className="little-block" id="340"></div>
+        
         <div className="little-block" id="341"></div>
         <div className="little-block" id="342"></div>
         <div className="little-block" id="343"></div>
@@ -622,10 +1532,11 @@ function Game() {
         <div className="little-block" id="357"></div>
         <div className="little-block" id="358"></div>
         <div className="little-block" id="359"></div>
+        <div className="little-block" id="360"></div>
 
       </div>
       <div className="block">
-        <div className="little-block" id="360"></div>
+        
         <div className="little-block" id="361"></div>
         <div className="little-block" id="362"></div>
         <div className="little-block" id="363"></div>
@@ -645,10 +1556,11 @@ function Game() {
         <div className="little-block" id="377"></div>
         <div className="little-block" id="378"></div>
         <div className="little-block" id="379"></div>
+        <div className="little-block" id="380"></div>
 
       </div>
       <div className="block">
-        <div className="little-block" id="380"></div>
+        
         <div className="little-block" id="381"></div>
         <div className="little-block" id="382"></div>
         <div className="little-block" id="383"></div>
@@ -668,6 +1580,7 @@ function Game() {
         <div className="little-block" id="397"></div>
         <div className="little-block" id="398"></div>
         <div className="little-block" id="399"></div>
+        <div className="little-block" id="400"></div>
 
       </div>
     </div>
