@@ -7,6 +7,7 @@ import './styles.css';
 //import Controls from './components/controls/controls';
 
 function Game() {
+  
 
   const [ position, setPosition ] = useState({
     position: 2
@@ -4989,6 +4990,7 @@ function Game() {
     })
     
   }
+  
 
   return (
     <>
@@ -5473,10 +5475,10 @@ function Game() {
     </div>
     </div>
     <div className="controls">
-            <FaArrowLeft className="icon" onClick={() => changeLeft()}></FaArrowLeft>
-            <FaArrowDown className="icon" onClick={() => changeDown() }></FaArrowDown>
-            <FaArrowUp className="icon" onClick={() => changeUp()}></FaArrowUp>
-            <FaArrowRight className="icon" onClick={()=>changeRight()}></FaArrowRight>
+            <FaArrowLeft className="icon" onClick={changeLeft}></FaArrowLeft>
+            <FaArrowDown className="icon" onClick={changeDown}></FaArrowDown>
+            <FaArrowUp className="icon" onClick={changeUp}></FaArrowUp>
+            <FaArrowRight className="icon" onClick={changeRight}></FaArrowRight>
         </div>
     </>
   );
