@@ -970,7 +970,7 @@ function Game() {
     319: {
       className: "little-block"
     },
-    32: {
+    320: {
       className: "little-block"
     },
     321: {
@@ -1399,264 +1399,264 @@ function Game() {
       <div className="block">
         
         <div className="block-block" id="161"></div>
-        <div className="little-block" id="162"></div>
-        <div className="little-block" id="163"></div>
-        <div className="little-block" id="164"></div>
-        <div className="little-block" id="165"></div>
-        <div className="little-block" id="166"></div>
-        <div className="little-block" id="167"></div>
-        <div className="little-block" id="168"></div>
-        <div className="little-block" id="169"></div>
-        <div className="little-block" id="170"></div>
-        <div className="little-block" id="171"></div>
-        <div className="little-block" id="172"></div>
-        <div className="little-block" id="173"></div>
-        <div className="little-block" id="174"></div>
-        <div className="little-block" id="175"></div>
-        <div className="little-block" id="176"></div>
-        <div className="little-block" id="177"></div>
-        <div className="little-block" id="178"></div>
-        <div className="little-block" id="179"></div>
+        <div className={positionState[128].className} id="162"></div>
+        <div className={positionState[129].className} id="163"></div>
+        <div className={positionState[130].className} id="164"></div>
+        <div className={positionState[131].className} id="165"></div>
+        <div className={positionState[132].className} id="166"></div>
+        <div className={positionState[133].className} id="167"></div>
+        <div className={positionState[134].className} id="168"></div>
+        <div className={positionState[135].className} id="169"></div>
+        <div className={positionState[136].className} id="170"></div>
+        <div className={positionState[137].className} id="171"></div>
+        <div className={positionState[138].className} id="172"></div>
+        <div className={positionState[139].className} id="173"></div>
+        <div className={positionState[140].className} id="174"></div>
+        <div className={positionState[141].className} id="175"></div>
+        <div className={positionState[142].className} id="176"></div>
+        <div className={positionState[143].className} id="177"></div>
+        <div className={positionState[144].className} id="178"></div>
+        <div className={positionState[145].className} id="179"></div>
         <div className="block-block" id="180"></div>
 
       </div>
       <div className="block">
         
         <div className="block-block" id="181"></div>
-        <div className="little-block" id="182"></div>
-        <div className="little-block" id="183"></div>
-        <div className="little-block" id="184"></div>
-        <div className="little-block" id="185"></div>
-        <div className="little-block" id="186"></div>
-        <div className="little-block" id="187"></div>
-        <div className="little-block" id="188"></div>
-        <div className="little-block" id="189"></div>
-        <div className="little-block" id="190"></div>
-        <div className="little-block" id="191"></div>
-        <div className="little-block" id="192"></div>
-        <div className="little-block" id="193"></div>
-        <div className="little-block" id="194"></div>
-        <div className="little-block" id="195"></div>
-        <div className="little-block" id="196"></div>
-        <div className="little-block" id="197"></div>
-        <div className="little-block" id="198"></div>
-        <div className="little-block" id="209"></div>
+        <div className={positionState[146].className} id="182"></div>
+        <div className={positionState[147].className} id="183"></div>
+        <div className={positionState[148].className} id="184"></div>
+        <div className={positionState[149].className} id="185"></div>
+        <div className={positionState[150].className} id="186"></div>
+        <div className={positionState[151].className} id="187"></div>
+        <div className={positionState[152].className} id="188"></div>
+        <div className={positionState[153].className} id="189"></div>
+        <div className={positionState[154].className} id="190"></div>
+        <div className={positionState[155].className} id="191"></div>
+        <div className={positionState[156].className} id="192"></div>
+        <div className={positionState[157].className} id="193"></div>
+        <div className={positionState[158].className} id="194"></div>
+        <div className={positionState[159].className} id="195"></div>
+        <div className={positionState[160].className} id="196"></div>
+        <div className={positionState[161].className} id="197"></div>
+        <div className={positionState[162].className} id="198"></div>
+        <div className={positionState[163].className} id="209"></div>
         <div className="block-block" id="200"></div>
 
       </div>
       <div className="block">
         
         <div className="block-block" id="201"></div>
-        <div className="little-block" id="202"></div>
-        <div className="little-block" id="203"></div>
-        <div className="little-block" id="204"></div>
-        <div className="little-block" id="205"></div>
-        <div className="little-block" id="206"></div>
-        <div className="little-block" id="207"></div>
-        <div className="little-block" id="208"></div>
-        <div className="little-block" id="209"></div>
-        <div className="little-block" id="210"></div>
-        <div className="little-block" id="211"></div>
-        <div className="little-block" id="212"></div>
-        <div className="little-block" id="213"></div>
-        <div className="little-block" id="214"></div>
-        <div className="little-block" id="215"></div>
-        <div className="little-block" id="216"></div>
-        <div className="little-block" id="217"></div>
-        <div className="little-block" id="218"></div>
-        <div className="little-block" id="219"></div>
+        <div className={positionState[164].className} id="202"></div>
+        <div className={positionState[165].className} id="203"></div>
+        <div className={positionState[166].className} id="204"></div>
+        <div className={positionState[167].className} id="205"></div>
+        <div className={positionState[168].className} id="206"></div>
+        <div className={positionState[169].className} id="207"></div>
+        <div className={positionState[170].className} id="208"></div>
+        <div className={positionState[171].className} id="209"></div>
+        <div className={positionState[172].className} id="210"></div>
+        <div className={positionState[173].className} id="211"></div>
+        <div className={positionState[174].className} id="212"></div>
+        <div className={positionState[175].className} id="213"></div>
+        <div className={positionState[176].className} id="214"></div>
+        <div className={positionState[177].className} id="215"></div>
+        <div className={positionState[178].className} id="216"></div>
+        <div className={positionState[179].className} id="217"></div>
+        <div className={positionState[180].className} id="218"></div>
+        <div className={positionState[181].className} id="219"></div>
         <div className="block-block" id="220"></div>
 
       </div>
       <div className="block">
         
         <div className="block-block" id="221"></div>
-        <div className="little-block" id="222"></div>
-        <div className="little-block" id="223"></div>
-        <div className="little-block" id="224"></div>
-        <div className="little-block" id="225"></div>
-        <div className="little-block" id="226"></div>
-        <div className="little-block" id="227"></div>
-        <div className="little-block" id="228"></div>
-        <div className="little-block" id="229"></div>
-        <div className="little-block" id="230"></div>
-        <div className="little-block" id="231"></div>
-        <div className="little-block" id="232"></div>
-        <div className="little-block" id="233"></div>
-        <div className="little-block" id="234"></div>
-        <div className="little-block" id="235"></div>
-        <div className="little-block" id="236"></div>
-        <div className="little-block" id="237"></div>
-        <div className="little-block" id="238"></div>
-        <div className="little-block" id="239"></div>
+        <div className={positionState[182].className} id="222"></div>
+        <div className={positionState[183].className} id="223"></div>
+        <div className={positionState[184].className} id="224"></div>
+        <div className={positionState[185].className} id="225"></div>
+        <div className={positionState[186].className} id="226"></div>
+        <div className={positionState[187].className} id="227"></div>
+        <div className={positionState[188].className} id="228"></div>
+        <div className={positionState[189].className} id="229"></div>
+        <div className={positionState[190].className} id="230"></div>
+        <div className={positionState[191].className} id="231"></div>
+        <div className={positionState[192].className} id="232"></div>
+        <div className={positionState[193].className} id="233"></div>
+        <div className={positionState[194].className} id="234"></div>
+        <div className={positionState[195].className} id="235"></div>
+        <div className={positionState[196].className} id="236"></div>
+        <div className={positionState[197].className} id="237"></div>
+        <div className={positionState[198].className} id="238"></div>
+        <div className={positionState[199].className} id="239"></div>
         <div className="block-block" id="240"></div>
 
       </div>
       <div className="block">
         
         <div className="block-block" id="241"></div>
-        <div className="little-block" id="242"></div>
-        <div className="little-block" id="243"></div>
-        <div className="little-block" id="244"></div>
-        <div className="little-block" id="245"></div>
-        <div className="little-block" id="246"></div>
-        <div className="little-block" id="247"></div>
-        <div className="little-block" id="248"></div>
-        <div className="little-block" id="249"></div>
-        <div className="little-block" id="250"></div>
-        <div className="little-block" id="251"></div>
-        <div className="little-block" id="252"></div>
-        <div className="little-block" id="253"></div>
-        <div className="little-block" id="254"></div>
-        <div className="little-block" id="255"></div>
-        <div className="little-block" id="256"></div>
-        <div className="little-block" id="257"></div>
-        <div className="little-block" id="258"></div>
-        <div className="little-block" id="259"></div>
+        <div className={positionState[200].className} id="242"></div>
+        <div className={positionState[201].className} id="243"></div>
+        <div className={positionState[202].className} id="244"></div>
+        <div className={positionState[203].className} id="245"></div>
+        <div className={positionState[204].className} id="246"></div>
+        <div className={positionState[205].className} id="247"></div>
+        <div className={positionState[206].className} id="248"></div>
+        <div className={positionState[207].className} id="249"></div>
+        <div className={positionState[208].className} id="250"></div>
+        <div className={positionState[209].className} id="251"></div>
+        <div className={positionState[210].className} id="252"></div>
+        <div className={positionState[211].className} id="253"></div>
+        <div className={positionState[212].className} id="254"></div>
+        <div className={positionState[213].className} id="255"></div>
+        <div className={positionState[214].className} id="256"></div>
+        <div className={positionState[215].className} id="257"></div>
+        <div className={positionState[216].className} id="258"></div>
+        <div className={positionState[217].className} id="259"></div>
         <div className="block-block" id="260"></div>
 
       </div>
       <div className="block">
         
         <div className="block-block" id="261"></div>
-        <div className="little-block" id="262"></div>
-        <div className="little-block" id="263"></div>
-        <div className="little-block" id="264"></div>
-        <div className="little-block" id="265"></div>
-        <div className="little-block" id="266"></div>
-        <div className="little-block" id="267"></div>
-        <div className="little-block" id="268"></div>
-        <div className="little-block" id="269"></div>
-        <div className="little-block" id="270"></div>
-        <div className="little-block" id="271"></div>
-        <div className="little-block" id="272"></div>
-        <div className="little-block" id="273"></div>
-        <div className="little-block" id="274"></div>
-        <div className="little-block" id="275"></div>
-        <div className="little-block" id="276"></div>
-        <div className="little-block" id="277"></div>
-        <div className="little-block" id="278"></div>
-        <div className="little-block" id="279"></div>
+        <div className={positionState[218].className} id="262"></div>
+        <div className={positionState[219].className} id="263"></div>
+        <div className={positionState[220].className} id="264"></div>
+        <div className={positionState[221].className} id="265"></div>
+        <div className={positionState[222].className} id="266"></div>
+        <div className={positionState[223].className} id="267"></div>
+        <div className={positionState[224].className} id="268"></div>
+        <div className={positionState[225].className} id="269"></div>
+        <div className={positionState[226].className} id="270"></div>
+        <div className={positionState[227].className} id="271"></div>
+        <div className={positionState[228].className} id="272"></div>
+        <div className={positionState[229].className} id="273"></div>
+        <div className={positionState[230].className} id="274"></div>
+        <div className={positionState[231].className} id="275"></div>
+        <div className={positionState[232].className} id="276"></div>
+        <div className={positionState[233].className} id="277"></div>
+        <div className={positionState[234].className} id="278"></div>
+        <div className={positionState[235].className} id="279"></div>
         <div className="block-block" id="280"></div>
 
       </div>
       <div className="block">
         
         <div className="block-block" id="281"></div>
-        <div className="little-block" id="282"></div>
-        <div className="little-block" id="283"></div>
-        <div className="little-block" id="284"></div>
-        <div className="little-block" id="285"></div>
-        <div className="little-block" id="286"></div>
-        <div className="little-block" id="287"></div>
-        <div className="little-block" id="288"></div>
-        <div className="little-block" id="289"></div>
-        <div className="little-block" id="290"></div>
-        <div className="little-block" id="291"></div>
-        <div className="little-block" id="292"></div>
-        <div className="little-block" id="293"></div>
-        <div className="little-block" id="294"></div>
-        <div className="little-block" id="295"></div>
-        <div className="little-block" id="296"></div>
-        <div className="little-block" id="297"></div>
-        <div className="little-block" id="298"></div>
-        <div className="little-block" id="299"></div>
+        <div className={positionState[236].className} id="282"></div>
+        <div className={positionState[237].className} id="283"></div>
+        <div className={positionState[238].className} id="284"></div>
+        <div className={positionState[239].className} id="285"></div>
+        <div className={positionState[240].className} id="286"></div>
+        <div className={positionState[241].className} id="287"></div>
+        <div className={positionState[242].className} id="288"></div>
+        <div className={positionState[243].className} id="289"></div>
+        <div className={positionState[244].className} id="290"></div>
+        <div className={positionState[245].className} id="291"></div>
+        <div className={positionState[246].className} id="292"></div>
+        <div className={positionState[247].className} id="293"></div>
+        <div className={positionState[248].className} id="294"></div>
+        <div className={positionState[249].className} id="295"></div>
+        <div className={positionState[250].className} id="296"></div>
+        <div className={positionState[251].className} id="297"></div>
+        <div className={positionState[252].className} id="298"></div>
+        <div className={positionState[253].className} id="299"></div>
         <div className="block-block" id="300"></div>
 
       </div>
       <div className="block">
         
         <div className="block-block" id="301"></div>
-        <div className="little-block" id="302"></div>
-        <div className="little-block" id="303"></div>
-        <div className="little-block" id="304"></div>
-        <div className="little-block" id="305"></div>
-        <div className="little-block" id="306"></div>
-        <div className="little-block" id="307"></div>
-        <div className="little-block" id="308"></div>
-        <div className="little-block" id="309"></div>
-        <div className="little-block" id="310"></div>
-        <div className="little-block" id="311"></div>
-        <div className="little-block" id="312"></div>
-        <div className="little-block" id="313"></div>
-        <div className="little-block" id="314"></div>
-        <div className="little-block" id="315"></div>
-        <div className="little-block" id="316"></div>
-        <div className="little-block" id="317"></div>
-        <div className="little-block" id="318"></div>
-        <div className="little-block" id="319"></div>
+        <div className={positionState[254].className} id="302"></div>
+        <div className={positionState[255].className} id="303"></div>
+        <div className={positionState[256].className} id="304"></div>
+        <div className={positionState[257].className} id="305"></div>
+        <div className={positionState[258].className} id="306"></div>
+        <div className={positionState[259].className} id="307"></div>
+        <div className={positionState[260].className} id="308"></div>
+        <div className={positionState[261].className} id="309"></div>
+        <div className={positionState[262].className} id="310"></div>
+        <div className={positionState[263].className} id="311"></div>
+        <div className={positionState[264].className} id="312"></div>
+        <div className={positionState[265].className} id="313"></div>
+        <div className={positionState[266].className} id="314"></div>
+        <div className={positionState[267].className} id="315"></div>
+        <div className={positionState[268].className} id="316"></div>
+        <div className={positionState[269].className} id="317"></div>
+        <div className={positionState[270].className} id="318"></div>
+        <div className={positionState[271].className} id="319"></div>
         <div className="block-block" id="320"></div>
 
       </div>
       <div className="block">
         
         <div className="block-block" id="321"></div>
-        <div className="little-block" id="322"></div>
-        <div className="little-block" id="323"></div>
-        <div className="little-block" id="324"></div>
-        <div className="little-block" id="325"></div>
-        <div className="little-block" id="326"></div>
-        <div className="little-block" id="327"></div>
-        <div className="little-block" id="328"></div>
-        <div className="little-block" id="329"></div>
-        <div className="little-block" id="330"></div>
-        <div className="little-block" id="331"></div>
-        <div className="little-block" id="332"></div>
-        <div className="little-block" id="333"></div>
-        <div className="little-block" id="334"></div>
-        <div className="little-block" id="335"></div>
-        <div className="little-block" id="336"></div>
-        <div className="little-block" id="337"></div>
-        <div className="little-block" id="338"></div>
-        <div className="little-block" id="339"></div>
+        <div className={positionState[272].className} id="322"></div>
+        <div className={positionState[273].className} id="323"></div>
+        <div className={positionState[274].className} id="324"></div>
+        <div className={positionState[275].className} id="325"></div>
+        <div className={positionState[276].className} id="326"></div>
+        <div className={positionState[277].className} id="327"></div>
+        <div className={positionState[278].className} id="328"></div>
+        <div className={positionState[279].className} id="329"></div>
+        <div className={positionState[280].className} id="330"></div>
+        <div className={positionState[281].className} id="331"></div>
+        <div className={positionState[282].className} id="332"></div>
+        <div className={positionState[283].className} id="333"></div>
+        <div className={positionState[284].className} id="334"></div>
+        <div className={positionState[285].className} id="335"></div>
+        <div className={positionState[286].className} id="336"></div>
+        <div className={positionState[287].className} id="337"></div>
+        <div className={positionState[288].className} id="338"></div>
+        <div className={positionState[289].className} id="339"></div>
         <div className="block-block" id="340"></div>
 
       </div>
       <div className="block">
         
         <div className="block-block" id="341"></div>
-        <div className="little-block" id="342"></div>
-        <div className="little-block" id="343"></div>
-        <div className="little-block" id="344"></div>
-        <div className="little-block" id="345"></div>
-        <div className="little-block" id="346"></div>
-        <div className="little-block" id="347"></div>
-        <div className="little-block" id="348"></div>
-        <div className="little-block" id="349"></div>
-        <div className="little-block" id="350"></div>
-        <div className="little-block" id="351"></div>
-        <div className="little-block" id="352"></div>
-        <div className="little-block" id="353"></div>
-        <div className="little-block" id="354"></div>
-        <div className="little-block" id="355"></div>
-        <div className="little-block" id="356"></div>
-        <div className="little-block" id="357"></div>
-        <div className="little-block" id="358"></div>
-        <div className="little-block" id="359"></div>
+        <div className={positionState[290].className} id="342"></div>
+        <div className={positionState[291].className} id="343"></div>
+        <div className={positionState[292].className} id="344"></div>
+        <div className={positionState[293].className} id="345"></div>
+        <div className={positionState[294].className} id="346"></div>
+        <div className={positionState[295].className} id="347"></div>
+        <div className={positionState[296].className} id="348"></div>
+        <div className={positionState[297].className} id="349"></div>
+        <div className={positionState[298].className} id="350"></div>
+        <div className={positionState[299].className} id="351"></div>
+        <div className={positionState[300].className} id="352"></div>
+        <div className={positionState[301].className} id="353"></div>
+        <div className={positionState[302].className} id="354"></div>
+        <div className={positionState[303].className} id="355"></div>
+        <div className={positionState[304].className} id="356"></div>
+        <div className={positionState[305].className} id="357"></div>
+        <div className={positionState[306].className} id="358"></div>
+        <div className={positionState[307].className} id="359"></div>
         <div className="block-block" id="360"></div>
 
       </div>
       <div className="block">
         
         <div className="block-block" id="361"></div>
-        <div className="little-block" id="362"></div>
-        <div className="little-block" id="363"></div>
-        <div className="little-block" id="364"></div>
-        <div className="little-block" id="365"></div>
-        <div className="little-block" id="366"></div>
-        <div className="little-block" id="367"></div>
-        <div className="little-block" id="368"></div>
-        <div className="little-block" id="369"></div>
-        <div className="little-block" id="370"></div>
-        <div className="little-block" id="371"></div>
-        <div className="little-block" id="372"></div>
-        <div className="little-block" id="373"></div>
-        <div className="little-block" id="374"></div>
-        <div className="little-block" id="375"></div>
-        <div className="little-block" id="376"></div>
-        <div className="little-block" id="377"></div>
-        <div className="little-block" id="378"></div>
-        <div className="little-block" id="379"></div>
+        <div className={positionState[308].className} id="362"></div>
+        <div className={positionState[309].className} id="363"></div>
+        <div className={positionState[310].className} id="364"></div>
+        <div className={positionState[311].className} id="365"></div>
+        <div className={positionState[312].className} id="366"></div>
+        <div className={positionState[313].className} id="367"></div>
+        <div className={positionState[314].className} id="368"></div>
+        <div className={positionState[315].className} id="369"></div>
+        <div className={positionState[316].className} id="370"></div>
+        <div className={positionState[317].className} id="371"></div>
+        <div className={positionState[318].className} id="372"></div>
+        <div className={positionState[319].className} id="373"></div>
+        <div className={positionState[320].className} id="374"></div>
+        <div className={positionState[321].className} id="375"></div>
+        <div className={positionState[322].className} id="376"></div>
+        <div className={positionState[323].className} id="377"></div>
+        <div className={positionState[324].className} id="378"></div>
+        <div className={positionState[325].className} id="379"></div>
         <div className="block-block" id="380"></div>
 
       </div>
