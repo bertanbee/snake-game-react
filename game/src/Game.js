@@ -13,9 +13,6 @@ function Game() {
   })
 
   const [ positionState, setPositionState ] = useState({
-    1: {
-      className: "little-block"
-    },
     2: {
       className: "little-block-selected"
     },
@@ -77,7 +74,7 @@ function Game() {
       className: "little-block"
     },
     22: {
-      className: "little-block-selected"
+      className: "little-block"
     },
     23: {
       className: "little-block"
@@ -137,7 +134,7 @@ function Game() {
       className: "little-block"
     },
     42: {
-      className: "little-block-selected"
+      className: "little-block"
     },
     43: {
       className: "little-block"
@@ -917,7 +914,7 @@ function Game() {
       className: "little-block"
     },
     302: {
-      className: "little-block-selected"
+      className: "little-block"
     },
     303: {
       className: "little-block"
@@ -947,7 +944,7 @@ function Game() {
       className: "little-block"
     },
     312: {
-      className: "little-block-selected"
+      className: "little-block"
     },
     313: {
       className: "little-block"
@@ -986,33 +983,6 @@ function Game() {
       className: "little-block"
     },
     325: {
-      className: "little-block"
-    },
-    326: {
-      className: "little-block"
-    },
-    327: {
-      className: "little-block"
-    },
-    328: {
-      className: "little-block"
-    },
-    329: {
-      className: "little-block"
-    },
-    330: {
-      className: "little-block"
-    },
-    331: {
-      className: "little-block"
-    },
-    332: {
-      className: "little-block-selected"
-    },
-    333: {
-      className: "little-block"
-    },
-    334: {
       className: "little-block"
     },
   });
