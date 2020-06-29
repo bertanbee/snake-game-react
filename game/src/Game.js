@@ -974,7 +974,7 @@ function Game() {
       className: "little-block"
     },
     322: {
-      className: "little-block-selected"
+      className: "little-block"
     },
     323: {
       className: "little-block"
@@ -998,18 +998,16 @@ function Game() {
     let counter = position.position + 1;
     console.log("Counter: " + counter);
 
-    while(counter <= 20) {
+    while(counter <= 325) {
       noStyledPosition.push(counter);
       counter++;
-      console.log(noStyledPosition);
     }
 
     counter = position.position - 1;
 
-    while(counter >= 1) {
+    while(counter >= 2) {
       noStyledPosition.push(counter);
       counter--;
-      console.log(noStyledPosition);
     }
 
     setPositionState({
@@ -1076,7 +1074,916 @@ function Game() {
       [noStyledPosition[19]]: {
         className: "little-block"
       },
-      
+      [noStyledPosition[20]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[21]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[22]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[23]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[24]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[25]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[26]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[27]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[28]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[29]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[30]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[31]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[32]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[33]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[34]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[35]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[36]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[37]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[38]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[39]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[40]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[41]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[42]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[43]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[44]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[45]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[46]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[47]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[48]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[49]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[50]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[51]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[52]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[53]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[54]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[55]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[56]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[57]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[58]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[59]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[60]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[61]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[62]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[63]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[64]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[65]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[66]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[67]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[68]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[69]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[70]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[71]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[72]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[73]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[74]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[75]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[76]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[77]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[78]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[79]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[80]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[81]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[82]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[83]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[84]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[85]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[86]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[87]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[88]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[89]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[90]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[91]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[92]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[93]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[94]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[95]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[96]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[97]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[98]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[99]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[100]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[101]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[102]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[103]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[104]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[105]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[106]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[107]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[108]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[109]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[110]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[111]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[112]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[113]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[114]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[115]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[116]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[117]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[118]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[119]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[120]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[121]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[122]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[123]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[124]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[125]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[126]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[127]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[128]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[129]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[130]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[131]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[132]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[133]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[134]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[135]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[136]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[137]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[138]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[139]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[140]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[141]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[142]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[143]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[144]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[145]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[146]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[147]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[148]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[149]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[150]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[151]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[152]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[153]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[154]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[155]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[156]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[157]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[158]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[159]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[160]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[161]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[162]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[163]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[164]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[165]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[166]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[167]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[168]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[169]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[170]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[171]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[172]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[173]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[174]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[175]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[176]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[177]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[178]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[179]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[180]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[181]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[182]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[183]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[184]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[185]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[186]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[187]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[188]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[189]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[190]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[191]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[192]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[193]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[194]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[195]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[196]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[197]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[198]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[199]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[200]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[201]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[202]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[203]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[204]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[205]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[206]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[207]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[208]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[209]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[210]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[211]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[212]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[213]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[214]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[215]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[216]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[217]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[218]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[219]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[220]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[221]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[222]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[223]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[224]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[225]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[226]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[227]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[228]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[229]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[230]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[231]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[232]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[233]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[234]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[235]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[236]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[237]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[238]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[239]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[240]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[241]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[242]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[243]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[244]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[245]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[246]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[247]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[248]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[249]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[250]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[251]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[252]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[253]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[254]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[255]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[256]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[257]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[258]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[259]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[260]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[261]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[262]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[263]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[264]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[265]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[266]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[267]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[268]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[269]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[270]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[271]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[272]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[273]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[274]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[275]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[276]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[277]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[278]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[279]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[280]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[281]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[282]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[283]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[284]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[285]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[286]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[287]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[288]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[289]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[290]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[291]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[292]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[293]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[294]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[295]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[296]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[297]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[298]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[299]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[300]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[301]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[302]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[303]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[304]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[305]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[306]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[307]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[308]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[309]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[310]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[311]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[312]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[313]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[314]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[315]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[316]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[317]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[318]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[319]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[320]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[321]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[322]]: {
+        className: "little-block"
+      },
+
     })
   }
 
@@ -1091,18 +1998,16 @@ function Game() {
     let counter = position.position + 1;
     console.log("Counter: " + counter);
 
-    while(counter <= 20) {
+    while(counter <= 325) {
       noStyledPosition.push(counter);
       counter++;
-      console.log(noStyledPosition);
     }
 
     counter = position.position - 1;
 
-    while(counter >= 1) {
+    while(counter >= 2) {
       noStyledPosition.push(counter);
       counter--;
-      console.log(noStyledPosition);
     }
 
     setPositionState({
@@ -1169,7 +2074,2918 @@ function Game() {
       [noStyledPosition[19]]: {
         className: "little-block"
       },
-      
+      [noStyledPosition[20]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[21]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[22]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[23]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[24]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[25]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[26]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[27]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[28]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[29]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[30]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[31]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[32]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[33]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[34]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[35]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[36]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[37]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[38]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[39]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[40]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[41]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[42]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[43]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[44]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[45]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[46]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[47]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[48]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[49]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[50]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[51]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[52]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[53]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[54]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[55]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[56]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[57]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[58]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[59]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[60]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[61]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[62]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[63]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[64]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[65]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[66]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[67]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[68]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[69]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[70]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[71]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[72]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[73]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[74]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[75]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[76]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[77]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[78]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[79]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[80]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[81]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[82]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[83]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[84]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[85]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[86]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[87]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[88]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[89]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[90]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[91]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[92]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[93]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[94]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[95]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[96]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[97]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[98]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[99]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[100]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[101]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[102]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[103]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[104]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[105]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[106]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[107]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[108]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[109]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[110]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[111]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[112]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[113]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[114]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[115]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[116]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[117]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[118]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[119]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[120]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[121]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[122]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[123]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[124]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[125]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[126]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[127]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[128]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[129]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[130]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[131]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[132]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[133]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[134]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[135]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[136]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[137]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[138]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[139]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[140]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[141]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[142]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[143]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[144]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[145]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[146]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[147]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[148]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[149]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[150]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[151]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[152]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[153]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[154]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[155]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[156]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[157]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[158]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[159]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[160]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[161]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[162]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[163]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[164]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[165]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[166]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[167]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[168]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[169]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[170]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[171]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[172]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[173]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[174]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[175]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[176]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[177]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[178]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[179]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[180]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[181]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[182]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[183]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[184]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[185]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[186]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[187]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[188]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[189]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[190]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[191]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[192]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[193]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[194]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[195]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[196]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[197]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[198]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[199]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[200]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[201]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[202]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[203]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[204]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[205]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[206]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[207]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[208]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[209]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[210]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[211]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[212]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[213]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[214]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[215]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[216]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[217]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[218]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[219]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[220]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[221]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[222]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[223]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[224]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[225]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[226]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[227]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[228]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[229]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[230]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[231]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[232]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[233]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[234]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[235]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[236]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[237]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[238]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[239]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[240]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[241]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[242]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[243]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[244]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[245]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[246]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[247]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[248]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[249]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[250]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[251]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[252]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[253]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[254]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[255]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[256]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[257]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[258]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[259]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[260]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[261]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[262]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[263]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[264]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[265]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[266]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[267]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[268]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[269]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[270]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[271]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[272]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[273]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[274]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[275]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[276]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[277]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[278]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[279]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[280]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[281]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[282]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[283]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[284]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[285]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[286]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[287]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[288]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[289]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[290]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[291]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[292]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[293]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[294]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[295]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[296]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[297]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[298]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[299]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[300]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[301]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[302]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[303]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[304]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[305]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[306]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[307]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[308]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[309]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[310]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[311]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[312]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[313]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[314]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[315]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[316]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[317]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[318]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[319]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[320]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[321]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[322]]: {
+        className: "little-block"
+      },
+
+    })
+    
+  }
+
+  function changeDown() {
+    setPosition({
+      position: position.position + 18
+    });
+    console.log("Position: " + position.position);
+    
+    let noStyledPosition = [];
+
+    let counter = position.position + 1;
+    console.log("Counter: " + counter);
+
+    while(counter <= 325) {
+      noStyledPosition.push(counter);
+      counter++;
+    }
+
+    counter = position.position - 1;
+
+    while(counter >= 2) {
+      noStyledPosition.push(counter);
+      counter--;
+    }
+
+    setPositionState({
+      [position.position]: {
+        className: "little-block-selected"
+      },
+      [noStyledPosition[0]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[1]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[2]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[3]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[4]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[5]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[6]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[7]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[8]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[9]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[10]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[11]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[12]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[13]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[14]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[15]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[16]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[17]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[18]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[19]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[20]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[21]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[22]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[23]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[24]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[25]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[26]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[27]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[28]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[29]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[30]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[31]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[32]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[33]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[34]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[35]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[36]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[37]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[38]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[39]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[40]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[41]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[42]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[43]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[44]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[45]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[46]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[47]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[48]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[49]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[50]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[51]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[52]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[53]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[54]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[55]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[56]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[57]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[58]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[59]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[60]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[61]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[62]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[63]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[64]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[65]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[66]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[67]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[68]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[69]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[70]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[71]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[72]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[73]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[74]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[75]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[76]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[77]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[78]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[79]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[80]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[81]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[82]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[83]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[84]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[85]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[86]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[87]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[88]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[89]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[90]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[91]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[92]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[93]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[94]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[95]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[96]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[97]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[98]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[99]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[100]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[101]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[102]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[103]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[104]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[105]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[106]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[107]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[108]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[109]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[110]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[111]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[112]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[113]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[114]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[115]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[116]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[117]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[118]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[119]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[120]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[121]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[122]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[123]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[124]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[125]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[126]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[127]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[128]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[129]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[130]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[131]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[132]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[133]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[134]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[135]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[136]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[137]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[138]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[139]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[140]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[141]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[142]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[143]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[144]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[145]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[146]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[147]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[148]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[149]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[150]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[151]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[152]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[153]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[154]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[155]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[156]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[157]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[158]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[159]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[160]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[161]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[162]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[163]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[164]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[165]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[166]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[167]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[168]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[169]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[170]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[171]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[172]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[173]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[174]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[175]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[176]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[177]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[178]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[179]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[180]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[181]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[182]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[183]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[184]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[185]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[186]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[187]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[188]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[189]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[190]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[191]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[192]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[193]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[194]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[195]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[196]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[197]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[198]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[199]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[200]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[201]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[202]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[203]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[204]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[205]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[206]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[207]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[208]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[209]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[210]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[211]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[212]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[213]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[214]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[215]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[216]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[217]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[218]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[219]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[220]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[221]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[222]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[223]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[224]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[225]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[226]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[227]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[228]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[229]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[230]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[231]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[232]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[233]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[234]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[235]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[236]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[237]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[238]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[239]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[240]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[241]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[242]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[243]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[244]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[245]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[246]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[247]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[248]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[249]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[250]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[251]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[252]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[253]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[254]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[255]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[256]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[257]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[258]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[259]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[260]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[261]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[262]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[263]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[264]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[265]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[266]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[267]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[268]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[269]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[270]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[271]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[272]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[273]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[274]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[275]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[276]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[277]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[278]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[279]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[280]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[281]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[282]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[283]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[284]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[285]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[286]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[287]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[288]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[289]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[290]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[291]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[292]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[293]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[294]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[295]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[296]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[297]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[298]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[299]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[300]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[301]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[302]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[303]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[304]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[305]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[306]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[307]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[308]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[309]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[310]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[311]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[312]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[313]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[314]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[315]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[316]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[317]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[318]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[319]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[320]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[321]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[322]]: {
+        className: "little-block"
+      },
+
+    })
+    
+  }
+
+  function changeUp() {
+    setPosition({
+      position: position.position - 18
+    });
+    console.log("Position: " + position.position);
+    
+    let noStyledPosition = [];
+
+    let counter = position.position + 1;
+    console.log("Counter: " + counter);
+
+    while(counter <= 325) {
+      noStyledPosition.push(counter);
+      counter++;
+    }
+
+    counter = position.position - 1;
+
+    while(counter >= 2) {
+      noStyledPosition.push(counter);
+      counter--;
+    }
+
+    setPositionState({
+      [position.position]: {
+        className: "little-block-selected"
+      },
+      [noStyledPosition[0]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[1]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[2]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[3]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[4]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[5]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[6]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[7]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[8]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[9]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[10]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[11]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[12]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[13]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[14]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[15]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[16]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[17]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[18]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[19]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[20]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[21]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[22]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[23]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[24]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[25]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[26]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[27]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[28]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[29]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[30]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[31]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[32]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[33]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[34]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[35]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[36]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[37]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[38]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[39]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[40]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[41]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[42]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[43]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[44]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[45]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[46]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[47]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[48]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[49]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[50]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[51]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[52]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[53]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[54]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[55]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[56]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[57]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[58]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[59]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[60]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[61]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[62]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[63]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[64]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[65]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[66]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[67]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[68]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[69]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[70]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[71]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[72]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[73]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[74]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[75]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[76]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[77]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[78]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[79]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[80]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[81]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[82]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[83]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[84]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[85]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[86]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[87]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[88]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[89]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[90]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[91]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[92]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[93]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[94]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[95]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[96]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[97]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[98]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[99]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[100]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[101]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[102]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[103]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[104]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[105]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[106]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[107]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[108]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[109]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[110]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[111]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[112]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[113]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[114]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[115]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[116]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[117]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[118]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[119]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[120]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[121]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[122]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[123]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[124]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[125]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[126]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[127]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[128]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[129]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[130]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[131]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[132]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[133]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[134]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[135]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[136]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[137]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[138]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[139]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[140]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[141]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[142]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[143]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[144]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[145]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[146]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[147]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[148]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[149]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[150]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[151]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[152]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[153]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[154]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[155]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[156]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[157]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[158]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[159]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[160]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[161]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[162]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[163]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[164]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[165]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[166]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[167]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[168]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[169]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[170]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[171]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[172]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[173]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[174]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[175]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[176]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[177]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[178]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[179]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[180]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[181]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[182]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[183]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[184]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[185]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[186]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[187]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[188]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[189]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[190]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[191]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[192]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[193]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[194]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[195]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[196]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[197]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[198]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[199]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[200]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[201]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[202]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[203]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[204]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[205]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[206]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[207]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[208]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[209]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[210]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[211]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[212]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[213]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[214]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[215]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[216]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[217]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[218]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[219]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[220]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[221]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[222]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[223]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[224]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[225]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[226]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[227]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[228]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[229]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[230]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[231]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[232]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[233]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[234]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[235]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[236]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[237]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[238]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[239]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[240]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[241]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[242]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[243]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[244]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[245]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[246]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[247]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[248]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[249]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[250]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[251]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[252]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[253]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[254]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[255]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[256]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[257]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[258]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[259]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[260]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[261]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[262]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[263]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[264]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[265]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[266]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[267]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[268]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[269]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[270]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[271]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[272]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[273]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[274]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[275]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[276]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[277]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[278]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[279]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[280]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[281]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[282]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[283]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[284]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[285]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[286]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[287]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[288]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[289]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[290]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[291]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[292]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[293]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[294]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[295]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[296]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[297]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[298]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[299]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[300]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[301]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[302]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[303]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[304]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[305]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[306]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[307]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[308]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[309]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[310]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[311]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[312]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[313]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[314]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[315]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[316]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[317]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[318]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[319]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[320]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[321]]: {
+        className: "little-block"
+      },
+      [noStyledPosition[322]]: {
+        className: "little-block"
+      },
+
     })
     
   }
@@ -1658,8 +5474,8 @@ function Game() {
     </div>
     <div className="controls">
             <FaArrowLeft className="icon" onClick={() => changeLeft()}></FaArrowLeft>
-            <FaArrowDown className="icon"></FaArrowDown>
-            <FaArrowUp className="icon"></FaArrowUp>
+            <FaArrowDown className="icon" onClick={() => changeDown() }></FaArrowDown>
+            <FaArrowUp className="icon" onClick={() => changeUp()}></FaArrowUp>
             <FaArrowRight className="icon" onClick={()=>changeRight()}></FaArrowRight>
         </div>
     </>
